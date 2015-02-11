@@ -1,0 +1,17 @@
+---
+layout: post
+title: Just another Test for asciidoc
+---
+
+Does it work?
+
+Let's see... :-)
+
+maybe another file extension
+
+== a simple headline
+
+|====
+|col1 |col2 
+|row1 |row2 
+|====
