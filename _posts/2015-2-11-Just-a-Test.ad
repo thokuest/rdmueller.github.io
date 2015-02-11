@@ -1,3 +1,15 @@
+---
+layout: post
+title: Just a Test for asciidoc
+---
+
 Does it work?
 
 Let's see... :-)
+
+== a simple headline
+
+====
+|col1 |col2 |
+|row1 |row2 |
+====
