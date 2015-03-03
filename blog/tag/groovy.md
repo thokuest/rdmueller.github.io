@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
 tag: groovy
-permalink: groovy/
+permalink: blog/tag/groovy/
 ---
