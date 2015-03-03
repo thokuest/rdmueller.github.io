@@ -4,6 +4,8 @@ title: A Test for Syntax-Highlighting
 tags: [groovy, github-pages]
 ---
 
+This is just a test
+
 ```groovy
 import java.uti.Date
 
