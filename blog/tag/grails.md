@@ -1,5 +1,5 @@
 ---
 layout: blog_by_tag
 tag: grails
-permalink: grails/
+permalink: blog/tag/grails/
 ---
