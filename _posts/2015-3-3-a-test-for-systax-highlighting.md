@@ -1,3 +1,9 @@
+---
+layout: post
+title: A Test for Syntax-Highlighting
+tags: [groovy, github-pages]
+---
+
 ```groovy
 import java.uti.Date
 
