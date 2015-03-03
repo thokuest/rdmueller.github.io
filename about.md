@@ -6,7 +6,7 @@ permalink: /about/
 
 This is yet another blog mostly written by a Grails Full-Stack-Developer (me). Mostly, because I hope other will join in and contribute their thoughs.
 
-The Blog uses github pages together with [Jekyll](https://github.com/jekyll/jekyll) as engine.
+The Blog uses github pages together with [Jekyll](https://github.com/jekyll/jekyll) as engine. Template from [Jekyll Now](http://www.jekyllnow.com/)
 
 ### Contribute
 
