@@ -22,3 +22,5 @@
 - slug: asciidoc
   name: asciidoc
   
+- slug: gradle
+  name: Gradle
