@@ -187,5 +187,5 @@ include::${name}.ad[]
 <% } %>
 ```
 
-(to be continued)
+Now we only need to create a gradle task which renders it.
 
