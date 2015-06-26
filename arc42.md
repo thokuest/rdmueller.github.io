@@ -33,3 +33,10 @@ a table?
 | row2 | row2 |
 
 sdf
+
+
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
