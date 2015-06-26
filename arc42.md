@@ -13,6 +13,5 @@ layout: default
 | Confluence 5.x oder 6.x | DE | - | [.zip](https://dl.dropboxusercontent.com/u/45486/arc42-downloads/confluence/templateDE-V6-confluence-53.xml.zip) | 
 | Confluence 4.3 | DE | - | [.zip](https://dl.dropbox.com/u/45486/arc42-downloads/confluence/templateDE-V6-confluence-43.xml.zip) |
 | Confluence 4.2 | DE | - | [.zip](https://dl.dropbox.com/u/45486/arc42-downloads/confluence/templateDE-222302-76.xml.zip) |
-----
 
 test
