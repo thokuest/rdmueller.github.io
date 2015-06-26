@@ -3,7 +3,6 @@ layout: default
 ---
 
 <p>ein test</p>
-
 {% assign formats = "asciidoc|docbook|docx|epub|html|markdown|markdownMP|textile" | split: "|"  %}  
 {% assign types = "plain|withhelp" | split: "|"  %}  
 | Format | Language | Plain | With Help |
@@ -27,10 +26,12 @@ test
 a table?
 ========
 
+----
 | col1 | col2 |
 | ---- | ---- |
 | row1 | row1 |
 | row2 | row2 |
+----
 
 sdf
 
