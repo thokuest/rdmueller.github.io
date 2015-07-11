@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRAFT: Spock-Reports for Grails 3.0
+title: DRAFT - Spock-Reports for Grails 3.0
 tags: [spock, grails]
 ---
 
