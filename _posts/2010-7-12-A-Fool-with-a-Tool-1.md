@@ -15,4 +15,4 @@ I used my [neuland "fine One" set of artmarkers](http://de.neuland.com/marker-un
 and my bikablo-books with lot's of ideas on how to visualize ideas and then started to draw. The feedback I've got was great!
 
 The "fine One" markers are not the best for a flip chart - they are designed for smaller format, but the do work on larger formats too.
-The brush tip 
+The brush tip gives your drawings a professional look which is visibly different from standard flip chart markers. The different light colors enable you to colorize your visualisations and give them the finishing touch.
