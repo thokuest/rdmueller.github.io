@@ -32,7 +32,7 @@ that's it... The next time you run `grails test-app`, you'll find the generated 
 
 ### Customizing your Reports
 
-If you want to customize your reports as described in the [documentation](https://github.com/renatoathaydes/spock-reports#customizing-the-reports), youhave to create a file called `META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`. That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.
+If you want to customize your reports as described in the [documentation](https://github.com/renatoathaydes/spock-reports#customizing-the-reports), you have to create a file called `META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`. That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.
 
 For Grails 3.0, you will succeed by putting it in `src/test/resources/META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`.
 
