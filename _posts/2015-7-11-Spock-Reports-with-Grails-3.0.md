@@ -1,6 +1,6 @@
 ---
 layout: post
-title: DRAFT - Spock-Reports for Grails 3.0
+title: Spock-Reports for Grails 3.0
 tags: [spock, grails]
 ---
 
@@ -60,4 +60,4 @@ com.athaydes.spockframework.report.template.TemplateReportCreator.summaryFileNam
 
 this file specifies that the templates are located in `src/test/resources/spockreporttemplates`. A good idea is to start with the default templates [spec-template.md](https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/spec-template.md) and [summary-template.md](https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/summary-template.md)
 
-That's it for a Grails 3.0 project.
+You might want to use this https://github.com/rdmueller/Grails3.0-Spock-Reports-Sample as a starting point...
