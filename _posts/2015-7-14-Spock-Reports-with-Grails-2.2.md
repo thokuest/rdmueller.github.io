@@ -56,7 +56,7 @@ to the dependencies section. Now, that should do the trick. The standard reports
 
 ### Customizing your Reports
 
-In order to store the generated reports in `target/test-reports/spock/.` you have to customize your reports as described in the [documentation](https://github.com/renatoathaydes/spock-reports#customizing-the-reports), youhave to create a file called `META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`. 
+In order to store the generated reports in `target/test-reports/spock/.` you have to customize your reports as described in the [documentation](https://github.com/renatoathaydes/spock-reports#customizing-the-reports), you have to create a file called `META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`. 
 That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.
 
 For Grails 2.2.4, you will succeed by putting it in `grails-app/conf/META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties`.
