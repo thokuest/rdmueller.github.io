@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Spock-Reports for Grails 2.2
+title: Spock-Reports for Grails 2.5
 tags: [spock, grails]
 ---
 
-In two previous posts I described how to use [Spock-Reports](https://github.com/renatoathaydes/spock-reports) with [Grails 3.0](http://www.grails.org) and Grails 2.2. 
+In two previous posts ([Grails3.0](https://rdmueller.github.io/Spock-Reports-with-Grails-3.0/) & [Grails2.2](https://rdmueller.github.io/Spock-Reports-with-Grails-2.2/)) I described how to use [Spock-Reports](https://github.com/renatoathaydes/spock-reports) with [Grails 3.0](http://www.grails.org) and Grails 2.2. 
 
 Now, if you try to use it with Grails 2.5, it seems not to work from the start. The main problem I noticed was that even
 when I run a trivial app and all spock tests are auto-created, I got an error message at the end of the tests: 
