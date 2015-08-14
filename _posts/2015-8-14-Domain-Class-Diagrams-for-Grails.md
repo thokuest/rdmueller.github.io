@@ -35,7 +35,7 @@ In order to make it even more convenient, you can check out your UML-Tool and se
 
 ## Example ##
 
-Here is an example diagram for the [Grails PetClinic sample application]
+Here is an example diagram for the [Grails PetClinic sample application](https://github.com/grails-samples/grails-petclinic)
 
 <div style="text-align: center;">
 <img src="../images/petclinic.png" style="max-width:100%;" />
