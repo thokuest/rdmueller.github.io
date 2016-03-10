@@ -5,6 +5,17 @@ tags: [spock, geb, asciidoc]
 ---
 
 Zwei Tage Javaland liegen gerade hinter mir. Zusammen mit [Tobias Kraft](https://twitter.com/tokraft) hatte ich die tolle Gelegenheit unseren Vortrag über Spock und Geb nochmal vor einem größeren Publikum vorzutragen. 
+
+Die zwei Tage waren natürlich vollgepackt mit Vorträgen, gutem Essen und guter Laune. Im Netzt gibt es schon einige gute Zusammenfassungen der Tage z.B. bei [exensio](http://blog.exensio.de/2016/03/javaland-2016.html) und [develishdevelop](https://develishdevelopment.wordpress.com/2016/03/09/javaland-2016-conference-day-1/).
+
+Für mich waren folgende Vorträge am interessantesten:
+
+* [Dierk König](https://twitter.com/mitie) "[Fun in GroovyLand](https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&locS=0&vid=509525)": Wie Tobias schon geschrieben hat, super Vortragsstil trotz ausgefallener Technik. Und @canonical + @builder haben sich bei mir als nützliche Annotation eingeprägt
+* [Daniel Grycman](https://twitter.com/danielgrycman) "[Introduction to Agile Documentation]": selbst noch nicht gesehen, soll aber gut gewesen sein, da AsciiDoc ;-)
+* [MrHaki](https://twitter.com/mrhaki) "[Writing Documentation with Asciidoctor Is Awesome](https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&locS=0&vid=509825)": Toller Vortragsstil mit Live-Coding über ein langes Asciidoc-Dokument
+* Andreas Knuth "[PhantomJS - Schweizer Taschenmesser der WWW-Automatisierung](https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&locS=0&vid=509726)": Interessante Einblicke über die unter PhantomJS liegende Technologie und warum wir [PhantomJS-CEF](https://github.com/KDAB/phantomjs-cef) brauchen.
+* [Alexander Heusingfeld](https://twitter.com/aheusingfeld) und [Tammo van Lessen](https://twitter.com/taval) "[When Microservices Meet Real-World Projects: Lessons Learned]()https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&locS=0&vid=509488": Super Tipps und eine Leand-Deployment-Pipeline (Pull statt Push!)
+* 
 <table>
 <tr>
 <td>
@@ -16,9 +27,9 @@ Zwei Tage Javaland liegen gerade hinter mir. Zusammen mit [Tobias Kraft](https:/
 </td>
 </tr>
 </table>
+<script async class="speakerdeck-embed" data-id="3e2e77dd039b45879579a7b6895e5203" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 Wer den Vortrag verpasst hat, kann sich das Video vom Entwicklertag letzten Jahres nochmal ansehen:
 
 <iframe allowfullscreen="" frameborder="0"  src="https://www.youtube.com/embed/L75DdPon5Gk" width="720" height="480"></iframe>
 
-<script async class="speakerdeck-embed" data-id="3e2e77dd039b45879579a7b6895e5203" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
