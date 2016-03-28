@@ -10,7 +10,15 @@ I truely believe that one of the biggest problems of the software-world isn't te
 
 Regarding the documentation - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, your are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)
 
-So my aim is to build on [the works of Gernot Starke and Peter Hruschka](http://arc42.de) to make use of arc42 even easier.
+So my aim is to build on [the works of Gernot Starke and Peter Hruschka](http://arc42.de) to make use of arc42 even easier. In order achieve this goal, there are the following ressources available:
+
+- the original arc42 pages in [german](http://arc42.de) and [english](http://arg42.org)
+- the [arc42 ressources on github](https://github.com/arc42)
+- a github.io pages containing the links to all known available [arc42 templates in different formats](http://arc42.github.io/)
+- the [asciidoc2confluence-script](https://github.com/rdmueller/asciidoc2confluence) to easily publish your docs to confluence
+
+ 
+
 
 
 The Blog uses github pages together with [Jekyll](https://github.com/jekyll/jekyll) as engine. Template from [Jekyll Now](http://www.jekyllnow.com/)
