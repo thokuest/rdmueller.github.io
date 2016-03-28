@@ -6,9 +6,9 @@ permalink: /about/
 
 My goal ist to make the software-world a better place one doc at a time.
 
-I truely believe that one of the biggest problems of the software-world isn't technology, skills or quality in the broad sense but missing *documentation*. Another is missing *simplicity*.
+I truely believe that one of the biggest problems of the software-world isn't technology, skills or quality in the broad sense but missing **documentation**. Another is missing **simplicity**.
 
-*Regarding the documentation* - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, your are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)
+**Regarding the documentation** - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, your are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)
 
 So my aim is to build on [the works of Gernot Starke and Peter Hruschka](http://arc42.de) to make use of arc42 even easier. In order achieve this goal, there are the following ressources available:
 
@@ -27,18 +27,19 @@ Together with [Tobias Kraft](https://twitter.com/tokraft) we developed this idea
 - a [full blown example](https://github.com/rdmueller/etka15) for creating asciidoc based test reports with Geb based screenshots
 - we presented the example at [Entwicklertag Karlsruhe 2015](https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle) ([video](https://www.youtube.com/watch?v=L75DdPon5Gk))and [JavaLand 2016](https://www.javaland.eu/de/archiv-2016/) (both talks where held in german)
 
-*When it comes to simplicity* I often have to think about a talk given by [Dierk König](https://twitter.com/mittie) with the headline "Einfach" - "Simple". The "facts" presented in this talk might not have a scientific foundation, but they sum up what lot of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
+**When it comes to simplicity** I often have to think about a talk given by [Dierk König](https://twitter.com/mittie) with the headline "Einfach" - "Simple". The "facts" presented in this talk might not have a scientific foundation, but they sum up what lot of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
 
+---
 
 
 The Blog uses github pages together with [Jekyll](https://github.com/jekyll/jekyll) as engine. Template from [Jekyll Now](http://www.jekyllnow.com/)
 
-### Contribute
+#### Contribute
 
 You've found a typo? You've got a good idea for an article for this blog?
 
 Just for this repository on https://github.com/rdmueller/rdmueller.github.io and send a pull request!
 
-### Contact me
+#### Contact me
 
 [ralf.d.mueller@gmail.com](mailto:ralf.d.mueller@gmail.com)
