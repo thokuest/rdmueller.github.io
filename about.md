@@ -27,7 +27,7 @@ Together with [Tobias Kraft](https://twitter.com/tokraft) we developed this idea
 - a [full blown example](https://github.com/rdmueller/etka15) for creating asciidoc based test reports with Geb based screenshots
 - we presented the example at [Entwicklertag Karlsruhe 2015](https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle) ([video](https://www.youtube.com/watch?v=L75DdPon5Gk))and [JavaLand 2016](https://www.javaland.eu/de/archiv-2016/) (both talks where held in german)
 
-**When it comes to simplicity** I often have to think about a talk given by [Dierk König](https://twitter.com/mittie) with the headline "Einfach" - "Simple". The "facts" presented in this talk might not have a scientific foundation, but they sum up what lot of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
+**When it comes to simplicity** I often have to think about a talk given by [Dierk König](https://twitter.com/mittie) with the headline ["Einfach" - "Simple"](https://www.dropbox.com/s/ui38pl12wobrgdl/Dierk_Koenig-Einfach-JAX2013.pdf?dl=0). The "facts" presented in this talk might not have a scientific foundation, but they sum up what lot of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."
 
 ---
 
