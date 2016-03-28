@@ -12,11 +12,21 @@ Regarding the documentation - there are some open source projects out there whic
 
 So my aim is to build on [the works of Gernot Starke and Peter Hruschka](http://arc42.de) to make use of arc42 even easier. In order achieve this goal, there are the following ressources available:
 
-- the original arc42 pages in [german](http://arc42.de) and [english](http://arg42.org)
+- the original arc42 pages in [german](http://arc42.de) and [english](http://arg42.org) (Created bei Gernot Starke and Peter Hruschka)
 - the [arc42 ressources on github](https://github.com/arc42)
 - a github.io pages containing the links to all known available [arc42 templates in different formats](http://arc42.github.io/)
 - the [asciidoc2confluence-script](https://github.com/rdmueller/asciidoc2confluence) to easily publish your docs to confluence
 
+In addition to arc42, my second stream of thoughts is about the documentation of test results. The red/green output of unit tests is often not enough - it doesn't say _what_ has been tested and reading the code is not the solution for all stakeholders.
+
+So I first came up with the [Grails FilmStrip-Plugin](https://github.com/rdmueller/grails-filmStrip) which displays screenshots made with the functional test module of Grails, as a film strip. This way, anybody can easily inspect those screens and check _what_ has been tested.
+
+Together with [Tobias Kraft](https://twitter.com/tokraft) we developed this idea further and merged the test specification created for Spock Tests with the screenshots made with Geb and came up with a good looking test report. As a result, there is
+
+- the [execl2spec](https://github.com/rdmueller/Excel2Spec) script on github which let's you define the spock specification in a spreadsheet. A script will turn the spreadsheet in a Spock test skeleton.
+- a [full blown example](https://github.com/rdmueller/etka15) for creating asciidoc based test reports with Geb based screenshots
+- we presented the example at [Entwicklertag Karlsruhe 2015](https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle) ([video](https://www.youtube.com/watch?v=L75DdPon5Gk))and [JavaLand 2016](https://www.javaland.eu/de/archiv-2016/) (both talks where held in german)
+- 
  
 
 
