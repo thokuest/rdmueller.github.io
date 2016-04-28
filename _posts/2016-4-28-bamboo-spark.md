@@ -60,9 +60,9 @@ So I checked the exported PDF - bingo. The PDF contains not the strokes but the 
 
 <iframe
   style="width: 100%; height: 600px"
-  src="http://jsfiddle.net/RDMueller/wnraf3rp/3/embed/js,html,result/">
+  src="https://jsfiddle.net/RDMueller/wnraf3rp/3/embed/js,html,result/">
 </iframe>
-<script async src="http://jsfiddle.net/RDMueller/wnraf3rp/3/embed/js,html,result/"></script>
+<script async src="https://jsfiddle.net/RDMueller/wnraf3rp/3/embed/js,html,result/"></script>
 
 ## tl;dr
 
