@@ -35,8 +35,8 @@ public class HelloGroovy {
 
 Now create a Groovy-Script which greets Java and calls the Java class from above
 
-+HelloJava.groovy+
-```groovy 
+**HelloJava.groovy**
+``` groovy 
 println "Hello Java, this is Groovy!"
 HelloGroovy.main(); //call the first java-snippet
 ```
@@ -47,8 +47,8 @@ HelloGroovy.main(); //call the first java-snippet
 
 Now create a third file which contains a Java class which calls the class created by the Groovy-Script
 
-+Test.java+
-```java 
+*Test.java*
+``` java 
 class Test {
 	public static void main(String[] args) {
 		System.out.println("Java & Groovy = Dream-Team!");
