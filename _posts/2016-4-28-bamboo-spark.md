@@ -24,7 +24,7 @@ So far so good. If you want to sync what you've written and sketched, this produ
 
 ## Ideas on how to hack the functionality
 
-### Plain Text processing
+### Plain Text Processing
 Since the first anoto smart pens like the [livescribe smartpen](https://www.livescribe.com/) hit the market, I dreamed of functionality where you use plain paper to create input for our personal digital assistant (PDA) as the devices where called back then. Today I would like to use the bamboo spark to interact with my smartphone. Here are basically three simple use cases
 
 #### 1. write a simple note and send it via mail
@@ -50,7 +50,7 @@ same pattern:
 
 And yep, it basically works! You can scribble these notes on the spark, convert them to text and then send them - for instance as email - to a script which does a further processing. Not build in, but possible and easy to implement. But this is unfortunately not an automated step since there is no API for the wacom cloud (at least none I am aware of) and so you have to convert your notes manually to plain text and send them. Each page by its own :-(
 
-### extract graphical data
+### Extract Graphical Data
 
 Another Idea is to process the strokes for additional functionality. The system should be able to give you the timing of the strokes along with the strokes themselves. So in addition to the OCR, you could implement functionality like the whitelines checkboxes - the system should be able to recognize a checkmark in a certain position or a special symbol.
 
