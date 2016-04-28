@@ -56,7 +56,7 @@ Another Idea is to process the strokes for additional functionality. The system 
 
 The WILL format seems to be the right way, but since it is proprietary, I don't want to take this route. It would be different if it would be more open.
 
-So I checked the exported PDF - bingo. The PDF contains not the strokes but the drawing - e.g. for each line a polygon which describes the border of the stroke. And those polygons seem to be even in the order of drawing. In order to give it a try, I create a small javascript which visualizes the PDF drawing:
+So I checked the exported PDF - bingo. The PDF contains not the strokes but the drawing - e.g. for each line a polygon which describes the border of the stroke. And those polygons seem to be even in the order of drawing. In order to give it a try, I create a small javascript which visualizes the PDF drawing: [jsfiddle](https://jsfiddle.net/RDMueller/wnraf3rp/3/)
 
 <script async src="//jsfiddle.net/RDMueller/wnraf3rp/3/embed/js,html,result/"></script>
 
