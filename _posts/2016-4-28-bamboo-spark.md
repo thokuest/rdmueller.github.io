@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Wacom Bamboo Spark: could have been so much more...
+title: Wacom Bamboo Spark - could have been so much more...
 tags: []
 ---
 
