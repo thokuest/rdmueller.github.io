@@ -19,7 +19,8 @@ This example assumes that you have Groovy and Java installed and `groovy-all-2.4
 
 Create a simple Java class which just greets Groovy:
 
-```java HelloGroovy.java
++HelloGroovy.java+
+```java 
 public class HelloGroovy {
 	public static void main(String[] args) {
 		System.out.println("Hello Groovy. This is java!");
@@ -33,7 +34,8 @@ public class HelloGroovy {
 
 Now create a Groovy-Script which greets Java and calls the Java class from above
 
-```groovy HelloJava.groovy
++HelloJava.groovy+
+```groovy 
 println "Hello Java, this is Groovy!"
 HelloGroovy.main(); //call the first java-snippet
 ```
@@ -44,7 +46,8 @@ HelloGroovy.main(); //call the first java-snippet
 
 Now create a third file which contains a Java class which calls the class created by the Groovy-Script
 
-```java Test.java
++Test.java+
+```java 
 class Test {
 	public static void main(String[] args) {
 		System.out.println("Java & Groovy = Dream-Team!");
