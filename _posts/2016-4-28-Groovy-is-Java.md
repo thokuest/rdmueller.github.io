@@ -19,7 +19,8 @@ This example assumes that you have Groovy and Java installed and `groovy-all-2.4
 
 Create a simple Java class which just greets Groovy:
 
-+HelloGroovy.java+
+++HelloGroovy.java++
+
 ```java 
 public class HelloGroovy {
 	public static void main(String[] args) {
