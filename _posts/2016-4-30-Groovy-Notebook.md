@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Groovy Notebook
-tags: [groovy, asciidoctor]
+tags: [groovy, asciidoc]
 ---
 
 From time to time I stumble upon a web application which lets you write notebooks like the ones you know from Mathematica. They let you mix formatted text which explains your code with code snippets. The output of those snippets is displayed and the code builds up snippet by snippet.
