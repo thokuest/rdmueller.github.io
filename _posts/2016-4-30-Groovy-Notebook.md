@@ -25,7 +25,7 @@ There are already great examples of plugins written in Groovy, so I had a good s
 
 So I took one of them as starting point and came up with [my own project](https://github.com/rdmueller/asciidoctorj-groovy). The core of the extension is shown here:
 
-<script src="https://gist-it.appspot.com/github/rdmueller/asciidoctorj-groovy/raw/master/buildSrc/src/main/groovy/org/asciidoctor/extension/GroovyBlock.groovy"></script>
+<script src="https://gist.github.com/rdmueller/037182fb79193d98835db2507edf7759.js"></script>
 
 It is activated whenever asciidoctor hits a `[groovy]` block. It then takes the content of the block, executes it and renders the original script together with the output. Infortunately, I couldn't find a way to return two different blocks in my extension - one which renders the source with highlighting and one which renders the pre-formatted output - so I had to do an ugly workaround which directly renders HTML. Do the simplest think which works :-)
 
