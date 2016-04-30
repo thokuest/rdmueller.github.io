@@ -29,5 +29,5 @@ So I took one of them as starting point and came up with [my own project](https:
 
 It is activated whenever asciidoctor hits a `[groovy]` block. It then takes the content of the block, executes it and renders the original script together with the output. Infortunately, I couldn't find a way to return two different blocks in my extension - one which renders the source with highlighting and one which renders the pre-formatted output - so I had to do an ugly workaround which directly renders HTML. Do the simplest think which works :-)
 
-Here is an example of the static rendered output: https://rawgit.com/rdmueller/asciidoctorj-groovy/master/example.html
+Here is an example of the static rendered output: [example.html](https://rawgit.com/rdmueller/asciidoctorj-groovy/master/example.html) with the corrsponding [input](https://github.com/rdmueller/asciidoctorj-groovy/blob/master/src/asciidoc/index.adoc).
 
