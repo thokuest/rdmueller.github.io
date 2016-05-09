@@ -17,7 +17,7 @@ The following snippets will show you how easy it is to combine Java und Groovy, 
 
 This example assumes that you have Groovy and Java installed and `groovy-all-2.4.6.jar` is available in your work directory.
 
-Create a simple Java class which just greets Groovy:
+Create a simple Java class which just greets Groovy: 
 
 **HelloGroovy.java**
 
