@@ -12,7 +12,7 @@ I truely believe that one of the biggest problems of the software-world isn't te
 
 So my aim is to build software on [the works of Gernot Starke and Peter Hruschka](http://arc42.de) to make use of arc42 even easier. In order to achieve this goal, there are the following ressources available:
 
-- the original arc42 pages in [german](http://arc42.de) and [english](http://arc42.org) (Created bei Gernot Starke and Peter Hruschka)
+- the original arc42 pages in [german](http://arc42.de) and [english](http://arc42.org) (Created by Gernot Starke and Peter Hruschka)
 - the [arc42 ressources on github](https://github.com/arc42)
 - github.io pages containing the links to all known available [arc42 templates in different formats](http://arc42.github.io/)
 - the [asciidoc2confluence-script](https://github.com/rdmueller/asciidoc2confluence) to easily publish your docs to confluence
