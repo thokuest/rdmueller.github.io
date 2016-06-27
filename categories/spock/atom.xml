@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[R.D.Müller - Bits from my Brain]]></title><link href="/categories/spock/atom.xml" rel="self"/><link href="/"/><updated>2016-06-26T18:03:39+02:00</updated><id>/</id><author><name><![CDATA[Ralf D. Müller]]></name><email><![CDATA[ralf.d.mueller@gmail.com]]></email></author><generator uri="http://sysgears.com/grain/">Grain</generator><entry><title type="html"><![CDATA[Jatumba!]]></title><link href="/blog/2016/03/10/jatumba/"/><updated>2016-06-27T20:29:15+02:00</updated><id>/blog/2016/03/10/jatumba/</id><content type="html"><![CDATA[<p>Zwei Tage Javaland liegen gerade hinter mir. Zusammen mit <a href="https://twitter.com/tokraft">Tobias Kraft</a> hatte ich die tolle Gelegenheit unseren Vortrag über Spock und Geb nochmal vor einem größeren Publikum vorzutragen.<!--more--></p>
+<p>Die zwei Tage waren natürlich vollgepackt mit Vorträgen, gutem Essen und guter Laune. Im Netzt gibt es schon einige gute Zusammenfassungen der Tage z.B. bei <a href="http://blog.exensio.de/2016/03/javaland-2016.html">exensio</a> und <a href="https://develishdevelopment.wordpress.com/2016/03/09/javaland-2016-conference-day-1/">develishdevelop</a>.</p>
+<p>Für mich waren folgende Vorträge am interessantesten:</p>
+<ul>
+<li><a href="https://twitter.com/mittie">Dierk König</a> "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509525">Fun in GroovyLand</a>": Wie Tobias schon geschrieben hat, super Vortragsstil trotz ausgefallener Technik. Und @canonical + @builder haben sich bei mir als nützliche Annotation eingeprägt</li>
+<li><a href="https://twitter.com/danielgrycman">Daniel Grycman</a> "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509701">Introduction to Agile Documentation</a>": selbst noch nicht gesehen, soll aber gut gewesen sein, da AsciiDoc ;-)</li>
+<li><a href="https://twitter.com/mrhaki">MrHaki</a> "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509825">Writing Documentation with Asciidoctor Is Awesome</a>": Toller Vortragsstil mit Live-Coding über ein langes Asciidoc-Dokument</li>
+<li>Andreas Knuth "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509726">PhantomJS - Schweizer Taschenmesser der WWW-Automatisierung</a>": Interessante Einblicke über die unter PhantomJS liegende Technologie und warum wir <a href="https://github.com/KDAB/phantomjs-cef">PhantomJS-CEF</a> brauchen.</li>
+<li><a href="https://twitter.com/goldstift">Alexander Heusingfeld</a> und <a href="https://twitter.com/taval">Tammo van Lessen</a> "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509488">When Microservices Meet Real-World Projects: Lessons Learned</a>": Super Tipps und eine Leand-Deployment-Pipeline (Pull statt Push!) -> <a href="https://www.innoq.com/en/talks/2016/03/javaland-2016-microservices-lessons-learned/">Slides</a></li>
+<li><a href="https://twitter.com/madmas">Markus Schlichting</a> "<a href="https://www.doag.org/konferenz/konferenzplaner/konferenzplaner_details.php?id=499959&amp;locS=0&amp;vid=509841">Token statt Cookies dank JWT</a>": genau, was ich gesucht habe, um meine JSESSIONID los zu werden! -> <a href="https://github.com/madmas/TokenVsCookies/tree/JavaLand2016">Slides</a></li>
+</ul>
+<table>
+<tr>
+<td>
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Lots of people interested in Testing with Spock and Geb with <a href="https://twitter.com/tokraft">@tokraft</a> and <a href="https://twitter.com/RalfDMueller">@RalfDMueller</a> at <a href="https://twitter.com/hashtag/JavaLand?src=hash">#JavaLand</a> <a href="https://t.co/f7XBxrNHCl">pic.twitter.com/f7XBxrNHCl</a></p>&mdash; Florian Hopf (@fhopf) <a href="https://twitter.com/fhopf/status/707185245066547200">8. März 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></td>
+<td>
+<blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">Testing automated with <a href="https://twitter.com/hashtag/Selenium?src=hash">#Selenium</a> <a href="https://twitter.com/hashtag/WebDriver?src=hash">#WebDriver</a>, <a href="https://twitter.com/hashtag/Geb?src=hash">#Geb</a> and <a href="https://twitter.com/hashtag/Spock?src=hash">#Spock</a> demonstrated by <a href="https://twitter.com/tokraft">@tokraft</a> at <a href="https://twitter.com/hashtag/JavaLandConf?src=hash">#JavaLandConf</a> 👌 <a href="https://t.co/ssQBhCjtNj">pic.twitter.com/ssQBhCjtNj</a></p>&mdash; Markus ★ (@madmas) <a href="https://twitter.com/madmas/status/707181204261486592">8. März 2016</a></blockquote>
+<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+</td>
+</tr>
+</table>
+<p><script async class="speakerdeck-embed" data-id="3e2e77dd039b45879579a7b6895e5203" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script></p>
+<p>Wer den Vortrag verpasst hat, kann sich das Video vom Entwicklertag letzten Jahres nochmal ansehen:</p>
+<p><iframe allowfullscreen="" frameborder="0"  src="https://www.youtube.com/embed/L75DdPon5Gk" width="720" height="480"></iframe></p>
+]]></content></entry><entry><title type="html"><![CDATA[Spock-Reports for Grails 2.5]]></title><link href="/blog/2015/07/16/spock-reports-for-grails-2-5/"/><updated>2016-06-27T20:29:01+02:00</updated><id>/blog/2015/07/16/spock-reports-for-grails-2-5/</id><content type="html"><![CDATA[<p>In two previous posts (<a href="https://rdmueller.github.io/Spock-Reports-with-Grails-3.0/">Grails3.0</a> &amp; <a href="https://rdmueller.github.io/Spock-Reports-with-Grails-2.2/">Grails2.2</a>) I described how to use <a href="https://github.com/renatoathaydes/spock-reports">Spock-Reports</a> with <a href="http://www.grails.org">Grails 3.0</a> and Grails 2.2.<!--more--></p>
+<p>Now, if you try to use it with Grails 2.5, it seems not to work from the start. The main problem I noticed was that even
+when I run a trivial app and all spock tests are auto-created, I got an error message at the end of the tests:
+http://stackoverflow.com/questions/31440381/forked-grails-vm-exited-with-error-while-running-test-app#comment50863764_31440381</p>
+<p>So I tried to get rid of this error message by not forking the VM when running tests. To do that, simply set the fork-configuration
+to <code>false</code> for the test environments (in <code>BuildConfig.groovy</code>)</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">grails</span><span class="o">.</span><span class="na">project</span><span class="o">.</span><span class="na">fork</span> <span class="o">=</span> <span class="o">[</span>
+</span><span class='line'>    <span class="o">...</span>
+</span><span class='line'>    <span class="nl">test:</span> <span class="kc">false</span><span class="o">,</span>
+</span><span class='line'>    <span class="o">...</span>
+</span><span class='line'><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Now, the rest seems to work the same as with Grails 2.2.4 with the only difference that Grails 2.5 uses Spock out of the box.
+So we don't habe to configure it:</p>
+<p>just open your <code>grails-app/conf/BuildConfig.groovy</code> file and add</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">repositories</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">mavenRepo</span> <span class="s2">&quot;http://jcenter.bintray.com&quot;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>repositories</code> section and</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">dependencies</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">test</span> <span class="s1">&#39;com.athaydes:spock-reports:1.2.5&#39;</span>  
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>dependencies</code> section.</p>
+<p>The standard reports are now generated and stored in <code>build/spock-reports/.</code>.</p>
+<h3>Customizing your Reports</h3>
+<p>In order to store the generated reports in <code>target/test-reports/spock/.</code> you have to customize your reports as described in the <a href="https://github.com/renatoathaydes/spock-reports#customizing-the-reports">documentation</a>, you have to create a file called <code>META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>.
+That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.</p>
+<p>For Grails 2.5, you will succeed by putting it in <code>grails-app/conf/META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>.</p>
+<p>Here is a sample file which uses the template based reports:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="err">#</span> <span class="n">Name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">implementation</span> <span class="kd">class</span> <span class="nc">of</span> <span class="n">the</span> <span class="n">report</span> <span class="n">creator</span>
+</span><span class='line'><span class="err">#</span> <span class="n">Currently</span> <span class="n">supported</span> <span class="n">classes</span> <span class="nl">are:</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">1</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">HtmlReportCreator</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">2</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">IReportCreator</span><span class="o">=</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">Output</span> <span class="n">directory</span> <span class="o">(</span><span class="n">where</span> <span class="n">the</span> <span class="n">spock</span> <span class="n">reports</span> <span class="n">will</span> <span class="n">be</span> <span class="n">created</span><span class="o">)</span> <span class="o">-</span> <span class="n">relative</span> <span class="n">to</span> <span class="n">working</span> <span class="n">directory</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">outputDir</span><span class="o">=</span><span class="n">target</span><span class="s">/test-reports/</span><span class="n">spock</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">If</span> <span class="n">set</span> <span class="n">to</span> <span class="kc">true</span><span class="o">,</span> <span class="n">hides</span> <span class="n">blocks</span> <span class="n">which</span> <span class="k">do</span> <span class="n">not</span> <span class="n">have</span> <span class="n">any</span> <span class="n">description</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">hideEmptyBlocks</span><span class="o">=</span><span class="kc">false</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">Set</span> <span class="n">properties</span> <span class="n">of</span> <span class="n">the</span> <span class="n">report</span> <span class="n">creator</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">specTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">spec</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">reportFileExtension</span><span class="o">=</span><span class="n">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">summary</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryFileName</span><span class="o">=</span><span class="n">summary</span><span class="o">.</span><span class="na">md</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>this file specifies that the templates are located in <code>grails-app/conf/spockreporttemplates</code> and the output
+will be written to <code>target/test-reports/spock</code>. A good idea is to start with the default templates <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/spec-template.md">spec-template.md</a> and <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/summary-template.md">summary-template.md</a></p>
+<p>You might want to use this https://github.com/rdmueller/Grails2.5-Spock-Reports-Sample as a starting point...</p>
+]]></content></entry><entry><title type="html"><![CDATA[Spock-Reports for Grails 2.2]]></title><link href="/blog/2015/07/14/spock-reports-for-grails-2-2/"/><updated>2016-06-27T20:28:54+02:00</updated><id>/blog/2015/07/14/spock-reports-for-grails-2-2/</id><content type="html"><![CDATA[<p>In a <a href="https://rdmueller.github.io/Spock-Reports-with-Grails-3.0/">previous post</a> I described how to use <a href="https://github.com/renatoathaydes/spock-reports">Spock-Reports</a> with <a href="http://www.grails.org">Grails 3.0</a>.<!--more--></p>
+<p>That was easy since Grails 3.0 is Gradle based.</p>
+<p>Now I will try to figure out how to use Spock-Reports with Grails 2.2.4 .</p>
+<p>Again, the configuration of the dependencies is easy: just open your <code>grails-app/conf/BuildConfig.groovy</code> file and add</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">repositories</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">mavenRepo</span> <span class="s2">&quot;http://jcenter.bintray.com&quot;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>repositories</code> section and</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">dependencies</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">test</span> <span class="s1">&#39;com.athaydes:spock-reports:1.2.5&#39;</span>  
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>dependencies</code> section. But since Grails 2.2.4 does not include Spock be default, we also have to follow the
+<a href="https://grails.org/plugin/spock">documentation for the Grails-Spock-Plugin</a> and add in addition</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">plugins</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>	<span class="n">test</span><span class="o">(</span><span class="s2">&quot;:spock:0.7&quot;</span><span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>	    <span class="c1">//since we use groovy 2.x with grails 2.2.4</span>
+</span><span class='line'>      	    <span class="n">exclude</span> <span class="s2">&quot;spock-grails-support&quot;</span>
+</span><span class='line'>    	<span class="o">}</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the plugins section and</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">dependencies</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="n">test</span> <span class="s1">&#39;org.spockframework:spock-grails-support:0.7-groovy-2.0&#39;</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the dependencies section. Now, that should do the trick. The standard reports are now generated and stored in <code>build/spock-reports/.</code>.</p>
+<h3>Customizing your Reports</h3>
+<p>In order to store the generated reports in <code>target/test-reports/spock/.</code> you have to customize your reports as described in the <a href="https://github.com/renatoathaydes/spock-reports#customizing-the-reports">documentation</a>, you have to create a file called <code>META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>.
+That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.</p>
+<p>For Grails 2.2.4, you will succeed by putting it in <code>grails-app/conf/META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>.</p>
+<p>Here is a sample file which uses the template based reports:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="err">#</span> <span class="n">Name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">implementation</span> <span class="kd">class</span> <span class="nc">of</span> <span class="n">the</span> <span class="n">report</span> <span class="n">creator</span>
+</span><span class='line'><span class="err">#</span> <span class="n">Currently</span> <span class="n">supported</span> <span class="n">classes</span> <span class="nl">are:</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">1</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">HtmlReportCreator</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">2</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">IReportCreator</span><span class="o">=</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">Output</span> <span class="n">directory</span> <span class="o">(</span><span class="n">where</span> <span class="n">the</span> <span class="n">spock</span> <span class="n">reports</span> <span class="n">will</span> <span class="n">be</span> <span class="n">created</span><span class="o">)</span> <span class="o">-</span> <span class="n">relative</span> <span class="n">to</span> <span class="n">working</span> <span class="n">directory</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">outputDir</span><span class="o">=</span><span class="n">target</span><span class="s">/test-reports/</span><span class="n">spock</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">If</span> <span class="n">set</span> <span class="n">to</span> <span class="kc">true</span><span class="o">,</span> <span class="n">hides</span> <span class="n">blocks</span> <span class="n">which</span> <span class="k">do</span> <span class="n">not</span> <span class="n">have</span> <span class="n">any</span> <span class="n">description</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">hideEmptyBlocks</span><span class="o">=</span><span class="kc">false</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">Set</span> <span class="n">properties</span> <span class="n">of</span> <span class="n">the</span> <span class="n">report</span> <span class="n">creator</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">specTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">spec</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">reportFileExtension</span><span class="o">=</span><span class="n">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">summary</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryFileName</span><span class="o">=</span><span class="n">summary</span><span class="o">.</span><span class="na">md</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>this file specifies that the templates are located in <code>grails-app/conf/spockreporttemplates</code> and the output
+will be written to <code>target/test-reports/spock</code>. A good idea is to start with the default templates <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/spec-template.md">spec-template.md</a> and <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/summary-template.md">summary-template.md</a></p>
+<p>You might want to use this https://github.com/rdmueller/Grails2.2-Spock-Reports-Sample as a starting point...</p>
+]]></content></entry><entry><title type="html"><![CDATA[Spock-Reports for Grails 3.0]]></title><link href="/blog/2015/07/11/spock-reports-for-grails-3-0/"/><updated>2016-06-27T20:28:39+02:00</updated><id>/blog/2015/07/11/spock-reports-for-grails-3-0/</id><content type="html"><![CDATA[<p><a href="https://github.com/renatoathaydes/spock-reports">Spock-Reports</a> is a great way to create better reports for <a href="https://github.com/spockframework/spock">Spock</a>.<!--more--></p>
+<p>Since Grails 3.0 is based on Gradle, integrating the Spock-Reports is easy. Just open your <code>build.gradle</code> file and add</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">repositories</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">jcenter</span><span class="o">()</span>
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>repositories</code> section and</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">dependencies</span> <span class="o">{</span>
+</span><span class='line'>  <span class="o">[...]</span>
+</span><span class='line'>  <span class="c1">//for spock-reports</span>
+</span><span class='line'>  <span class="n">testCompile</span> <span class="s1">&#39;com.athaydes:spock-reports:1.2.5&#39;</span>  
+</span><span class='line'><span class="o">}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>to the <code>dependencies</code> section.</p>
+<p>that's it... The next time you run <code>grails test-app</code>, you'll find the generated Spock-Reports in <code>/build/spock-reports/</code></p>
+<h3>Customizing your Reports</h3>
+<p>If you want to customize your reports as described in the <a href="https://github.com/renatoathaydes/spock-reports#customizing-the-reports">documentation</a>, you have to create a file called <code>META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>. That sounds easier than it is, because it has to be in the classpath and for some Grails projects, it's not easy to find the right folder to put it.</p>
+<p>For Grails 3.0, you will succeed by putting it in <code>src/test/resources/META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code>.</p>
+<p>Here is a sample file which uses the template based reports:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="err">#</span> <span class="n">Name</span> <span class="n">of</span> <span class="n">the</span> <span class="n">implementation</span> <span class="kd">class</span> <span class="nc">of</span> <span class="n">the</span> <span class="n">report</span> <span class="n">creator</span>
+</span><span class='line'><span class="err">#</span> <span class="n">Currently</span> <span class="n">supported</span> <span class="n">classes</span> <span class="nl">are:</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">1</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">HtmlReportCreator</span>
+</span><span class='line'><span class="err">#</span>   <span class="mi">2</span><span class="o">.</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">IReportCreator</span><span class="o">=</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span>
+</span><span class='line'>
+</span><span class='line'><span class="err">#</span> <span class="n">Output</span> <span class="n">directory</span> <span class="o">(</span><span class="n">where</span> <span class="n">the</span> <span class="n">spock</span> <span class="n">reports</span> <span class="n">will</span> <span class="n">be</span> <span class="n">created</span><span class="o">)</span> <span class="o">-</span> <span class="n">relative</span> <span class="n">to</span> <span class="n">working</span> <span class="n">directory</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">outputDir</span><span class="o">=</span><span class="n">build</span><span class="s">/spock-reports-mds</span>
+</span><span class='line'>
+</span><span class='line'><span class="s"># If set to true, hides blocks which do not have any description</span>
+</span><span class='line'><span class="s">com.athaydes.spockframework.report.hideEmptyBlocks=false</span>
+</span><span class='line'>
+</span><span class='line'><span class="s"># Set properties of the report creator</span>
+</span><span class='line'><span class="s">com.athaydes.spockframework.report.template.TemplateReportCreator.specTemplateFile=/</span><span class="n">spockreporttemplate</span><span class="s">/spec-template.md</span>
+</span><span class='line'><span class="s">com.athaydes.spockframework.report.template.TemplateReportCreator.reportFileExtension=md</span>
+</span><span class='line'><span class="s">com.athaydes.spockframework.report.template.TemplateReportCreator.summaryTemplateFile=/</span><span class="n">spockreporttemplate</span><span class="o">/</span><span class="n">summary</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">md</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryFileName</span><span class="o">=</span><span class="n">summary</span><span class="o">.</span><span class="na">md</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>this file specifies that the templates are located in <code>src/test/resources/spockreporttemplates</code>. A good idea is to start with the default templates <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/spec-template.md">spec-template.md</a> and <a href="https://github.com/renatoathaydes/spock-reports/blob/master/src/main/resources/templateReportCreator/summary-template.md">summary-template.md</a></p>
+<p>You might want to use this https://github.com/rdmueller/Grails3.0-Spock-Reports-Sample as a starting point...</p>
+]]></content></entry><entry><title type="html"><![CDATA[Spock und Geb - Übersichtlich und nachvollziehbar Testen für alle!]]></title><link href="/blog/2015/07/05/spock-und-geb-ubersichtlich-und-nachvollziehbar-testen-fur-alle/"/><updated>2016-06-27T20:28:26+02:00</updated><id>/blog/2015/07/05/spock-und-geb-ubersichtlich-und-nachvollziehbar-testen-fur-alle/</id><content type="html"><![CDATA[<p>Auf dem Entwicklertag Karlsruhe hatte ich zusammen mit Tobias Kraft mal wieder die Möglichkeit meine Ideen in einem Vortrag
+zu präsentieren. Mittlerweile ist sogar das Video zum <a href="https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle">Vortrag</a> online.<!--more--></p>
+<p>In dem Vortrag geht es darum, wie man bei der Entwicklung einer webbasierten Anwendung zusammen mit dem Kunden (Product Owner) eine "Testfahrt" der Applikation planen, automatisch ausführen und einen aussagekräftigen Report erstellen kann.</p>
+<p>Viel Spass beim ansehen!</p>
+<p><iframe allowfullscreen="" frameborder="0"  src="https://www.youtube.com/embed/L75DdPon5Gk" width="720" height="480"></iframe></p>
+<p><script async class="speakerdeck-embed" data-id="a5e3259364ba4c1dafc4a89890209bf2" data-ratio="1.41436464088398" src="//speakerdeck.com/assets/embed.js"></script></p>
+]]></content></entry><entry><title type="html"><![CDATA[Spock-Reports with Templates]]></title><link href="/blog/2015/03/15/spock-reports-with-templates/"/><updated>2016-06-27T20:28:04+02:00</updated><id>/blog/2015/03/15/spock-reports-with-templates/</id><content type="html"><![CDATA[<p>The new template engine for the Spock-Reports-Plugin is out. Let's build an asciidoc template with it.<!--more--></p>
+<h3>Step 1: configure the plugin</h3>
+<p>Renato describes this step in detail on the <a href="https://github.com/renatoathaydes/spock-reports">Plugin Homepage</a>. I've placed the properties file in <code>src/test/resources/main/META-INF/services/</code> and so I place my templates also in <code>src/test/resources/spockreporttemplate/</code></p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">specTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">spec</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">ad</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">reportFileExtension</span><span class="o">=</span><span class="n">ad</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryTemplateFile</span><span class="o">=</span><span class="s">/spockreporttemplate/</span><span class="n">summary</span><span class="o">-</span><span class="n">template</span><span class="o">.</span><span class="na">ad</span>
+</span><span class='line'><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">template</span><span class="o">.</span><span class="na">TemplateReportCreator</span><span class="o">.</span><span class="na">summaryFileName</span><span class="o">=</span><span class="n">summary</span><span class="o">.</span><span class="na">ad</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Just to get started, I placed two emtpy files <code>spec-template.ad</code> and <code>summary-template.ad</code> at the right location and ran my tests just to see that those empty templates are picked up.</p>
+<h3>Step 2: create a summary template</h3>
+<p>I'll start with the summary report. It seems to be the easier one. Renato already provided a <a href="https://raw.githubusercontent.com/renatoathaydes/spock-reports/master/src/main/resources/templateReportCreator/summary-template.md">markdown sample</a>, so let's take a look at it to see the data which is available to the template.</p>
+<p>So it seems that we have a convinience function (<code>aggregateStats</code>) which creates some statistical data about our test runs and the <code>data</code> object itself.</p>
+<p>Let's modify the empty template in order to output both data structures:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">&lt;%</span> <span class="kt">def</span> <span class="n">stats</span> <span class="o">=</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">Utils</span><span class="o">.</span><span class="na">aggregateStats</span><span class="o">(</span> <span class="n">data</span> <span class="o">)</span> <span class="o">%&gt;</span>
+</span><span class='line'><span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">inspect</span><span class="o">()}</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span>
+</span><span class='line'><span class="n">$</span><span class="o">{</span><span class="n">data</span><span class="o">.</span><span class="na">inspect</span><span class="o">()}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>which leads to the following output: (a little bit reformatted for better readability)</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">[</span><span class="s1">&#39;total&#39;</span><span class="o">:</span><span class="mi">13</span><span class="o">,</span> <span class="s1">&#39;passed&#39;</span><span class="o">:</span><span class="mi">13</span><span class="o">,</span> <span class="s1">&#39;failed&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;fFails&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;fErrors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mf">258.0</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">]</span>
+</span><span class='line'><span class="o">&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;&gt;</span>
+</span><span class='line'><span class="o">[</span><span class="s1">&#39;DatabaseDrivenSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">1</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">67</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;DataDrivenSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">3</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">19</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;DerivedSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">2</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">16</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;EmptyStackSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">4</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">20</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;HamcrestMatchersSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">1</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">21</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;HelloSpockSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">1</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">3</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;IncludeExcludeExtensionSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">3</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">3</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;OrderedInteractionsSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">1</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">49</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;PublisherSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">2</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">24</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;StackWithOneElementSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">4</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">4</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;StackWithThreeElementsSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">4</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">7</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;StepwiseExtensionSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">3</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">4</span><span class="o">],</span> 
+</span><span class='line'>	<span class="s1">&#39;UsingJUnitRulesSpec&#39;</span><span class="o">:[</span><span class="s1">&#39;failures&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;errors&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;skipped&#39;</span><span class="o">:</span><span class="mi">0</span><span class="o">,</span> <span class="s1">&#39;totalRuns&#39;</span><span class="o">:</span><span class="mi">1</span><span class="o">,</span> <span class="s1">&#39;successRate&#39;</span><span class="o">:</span><span class="mf">1.0</span><span class="o">,</span> <span class="s1">&#39;time&#39;</span><span class="o">:</span><span class="mi">21</span><span class="o">]</span>
+</span><span class='line'><span class="o">]</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>That's great! We get hashmaps which can be easily inspected. That will make it even easier to write a template.</p>
+<p>Now let's come up with the real template:</p>
+<h4>summary-template.ad:</h4>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">&lt;%</span> <span class="kt">def</span> <span class="n">stats</span> <span class="o">=</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">Utils</span><span class="o">.</span><span class="na">aggregateStats</span><span class="o">(</span> <span class="n">data</span> <span class="o">)</span>
+</span><span class='line'> <span class="o">%&gt;=</span> <span class="n">Specification</span> <span class="n">run</span> <span class="n">results</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">==</span> <span class="n">Specifications</span> <span class="n">summary</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[</span><span class="n">small</span><span class="o">&gt;</span><span class="err">#</span><span class="n">created</span> <span class="n">on</span> <span class="n">$</span><span class="o">{</span><span class="k">new</span> <span class="n">Date</span><span class="o">()}</span> <span class="n">by</span> <span class="n">$</span><span class="o">{</span><span class="n">System</span><span class="o">.</span><span class="na">properties</span><span class="o">[</span><span class="s1">&#39;user.name&#39;</span><span class="o">]}</span><span class="err">#</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">.</span><span class="na">summary</span>
+</span><span class='line'><span class="o">[</span><span class="n">options</span><span class="o">=</span><span class="s2">&quot;header&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="o">|==================================================================================================================================</span>
+</span><span class='line'><span class="o">|</span> <span class="n">Total</span>          <span class="o">|</span> <span class="n">Passed</span>          <span class="o">|</span> <span class="n">Failed</span>          <span class="o">|</span> <span class="n">Feature</span> <span class="n">failures</span> <span class="o">|</span> <span class="n">Feature</span> <span class="n">errors</span>   <span class="o">|</span> <span class="n">Success</span> <span class="n">rate</span>        <span class="o">|</span> <span class="n">Total</span> <span class="n">time</span> <span class="o">(</span><span class="n">ms</span><span class="o">)</span> 
+</span><span class='line'><span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">total</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">passed</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">failed</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">fFails</span><span class="o">}</span>  <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">fErrors</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">successRate</span><span class="o">}|</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">time</span><span class="o">}</span>   
+</span><span class='line'><span class="o">|==================================================================================================================================</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">==</span> <span class="n">Specifications</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[</span><span class="n">options</span><span class="o">=</span><span class="s2">&quot;header&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="o">|===================================================================</span>
+</span><span class='line'><span class="o">|</span><span class="n">Name</span>  <span class="o">|</span> <span class="n">Features</span> <span class="o">|</span> <span class="n">Failed</span> <span class="o">|</span> <span class="n">Errors</span> <span class="o">|</span> <span class="n">Skipped</span> <span class="o">|</span> <span class="n">Success</span> <span class="n">rate</span> <span class="o">|</span> <span class="n">Time</span> 
+</span><span class='line'><span class="o">&lt;%</span> <span class="n">data</span><span class="o">.</span><span class="na">each</span> <span class="o">{</span> <span class="n">name</span><span class="o">,</span> <span class="n">map</span> <span class="o">-&gt;</span>
+</span><span class='line'> <span class="o">%&gt;|</span> <span class="n">$name</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">totalRuns</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">failures</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">errors</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">skipped</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">successRate</span><span class="o">}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">map</span><span class="o">.</span><span class="na">time</span><span class="o">}</span> 
+</span><span class='line'><span class="o">&lt;%</span> <span class="o">}</span> <span class="o">%&gt;</span>
+</span><span class='line'><span class="o">|===================================================================</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[</span><span class="n">small</span><span class="o">]</span><span class="err">#</span><span class="n">generated</span> <span class="n">by</span> <span class="n">$</span><span class="o">{</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">SpockReportExtension</span><span class="o">.</span><span class="na">PROJECT_URL</span><span class="o">}[</span><span class="n">Athaydes</span> <span class="n">Spock</span> <span class="n">Reports</span><span class="o">]</span><span class="err">#</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Since MarkDown and AsciiDoc do not differ too much for this template, this was easy! Details regarding the formatting can be solved later...</p>
+<p>To check the correct asciidoc syntax, you can simply copy and paste the result to the asciidoc live editor https://asciidoclive.com/</p>
+<h3>Step 3: create a spec template</h3>
+<p>Now let's do the same with the spec template. First try to figure out what data we will have available.</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="n">$</span><span class="o">{</span><span class="n">data</span><span class="o">.</span><span class="na">dump</span><span class="o">()}</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>but this time, the dump does not give us such a good result: (reformatted for readability)</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">&lt;</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">SpecData</span><span class="err">@</span><span class="mi">5</span><span class="n">de17399</span> 
+</span><span class='line'><span class="n">info</span><span class="o">=</span><span class="n">org</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">runtime</span><span class="o">.</span><span class="na">model</span><span class="o">.</span><span class="na">SpecInfo</span><span class="err">@</span><span class="mi">7</span><span class="n">c6c71f5</span>
+</span><span class='line'><span class="n">featureRuns</span><span class="o">=[</span>
+</span><span class='line'>	<span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">FeatureRun</span><span class="err">@</span><span class="mi">33</span><span class="n">adcba4</span><span class="o">,</span>
+</span><span class='line'>	<span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">FeatureRun</span><span class="err">@</span><span class="mi">5714967</span><span class="n">d</span><span class="o">,</span>
+</span><span class='line'>	<span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">FeatureRun</span><span class="err">@</span><span class="mi">8</span><span class="n">a41535</span>
+</span><span class='line'>	<span class="o">]</span> 
+</span><span class='line'><span class="n">totalTime</span><span class="o">=</span><span class="mi">10</span><span class="o">&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>We can only see the different java object within the dump and not the full data structure. Since I don't like to go to the source of those structure and analyze it, I now take the MarkDown sample template and start to transform it right away. This should lead to a solution which will fit for the moment:</p>
+<h4>spec-template.ad:</h4>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+<span class='line-number'>20</span>
+<span class='line-number'>21</span>
+<span class='line-number'>22</span>
+<span class='line-number'>23</span>
+<span class='line-number'>24</span>
+<span class='line-number'>25</span>
+<span class='line-number'>26</span>
+<span class='line-number'>27</span>
+<span class='line-number'>28</span>
+<span class='line-number'>29</span>
+<span class='line-number'>30</span>
+<span class='line-number'>31</span>
+<span class='line-number'>32</span>
+<span class='line-number'>33</span>
+<span class='line-number'>34</span>
+<span class='line-number'>35</span>
+<span class='line-number'>36</span>
+<span class='line-number'>37</span>
+<span class='line-number'>38</span>
+<span class='line-number'>39</span>
+<span class='line-number'>40</span>
+<span class='line-number'>41</span>
+<span class='line-number'>42</span>
+<span class='line-number'>43</span>
+<span class='line-number'>44</span>
+<span class='line-number'>45</span>
+<span class='line-number'>46</span>
+<span class='line-number'>47</span>
+<span class='line-number'>48</span>
+<span class='line-number'>49</span>
+<span class='line-number'>50</span>
+<span class='line-number'>51</span>
+<span class='line-number'>52</span>
+<span class='line-number'>53</span>
+<span class='line-number'>54</span>
+<span class='line-number'>55</span>
+<span class='line-number'>56</span>
+<span class='line-number'>57</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">&lt;%</span>  <span class="kt">def</span> <span class="n">fmt</span> <span class="o">=</span> <span class="k">new</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">internal</span><span class="o">.</span><span class="na">StringFormatHelper</span><span class="o">()</span>
+</span><span class='line'>    <span class="kt">def</span> <span class="n">stats</span> <span class="o">=</span> <span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">util</span><span class="o">.</span><span class="na">Utils</span><span class="o">.</span><span class="na">stats</span><span class="o">(</span> <span class="n">data</span> <span class="o">)</span>
+</span><span class='line'> <span class="o">%&gt;==</span> <span class="n">Report</span> <span class="k">for</span> <span class="n">$</span><span class="o">{</span><span class="n">data</span><span class="o">.</span><span class="na">info</span><span class="o">.</span><span class="na">description</span><span class="o">.</span><span class="na">className</span><span class="o">}</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">===</span> <span class="n">Summary</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[</span><span class="n">cols</span><span class="o">=</span><span class="s2">&quot;asciidoc,asciidoc&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="o">|====</span>
+</span><span class='line'><span class="o">|*</span> <span class="n">Total</span> <span class="nl">Runs:</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">totalRuns</span><span class="o">}</span>
+</span><span class='line'> <span class="o">*</span> <span class="n">Success</span> <span class="nl">Rate:</span> <span class="n">$</span><span class="o">{</span><span class="n">fmt</span><span class="o">.</span><span class="na">toPercentage</span><span class="o">(</span><span class="n">stats</span><span class="o">.</span><span class="na">successRate</span><span class="o">)}</span>
+</span><span class='line'> <span class="o">*</span> <span class="n">Total</span> <span class="nl">time:</span> <span class="n">$</span><span class="o">{</span><span class="n">fmt</span><span class="o">.</span><span class="na">toTimeDuration</span><span class="o">(</span><span class="n">stats</span><span class="o">.</span><span class="na">time</span><span class="o">)}</span>
+</span><span class='line'><span class="o">|*</span> <span class="nl">Failures:</span> <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">failures</span><span class="o">}</span>
+</span><span class='line'> <span class="o">*</span> <span class="nl">Errors:</span>   <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">errors</span><span class="o">}</span>
+</span><span class='line'> <span class="o">*</span> <span class="nl">Skipped:</span>  <span class="n">$</span><span class="o">{</span><span class="n">stats</span><span class="o">.</span><span class="na">skipped</span><span class="o">}</span>
+</span><span class='line'><span class="o">|====</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">===</span> <span class="n">Features</span>
+</span><span class='line'><span class="o">&lt;%</span>
+</span><span class='line'>    <span class="n">features</span><span class="o">.</span><span class="na">forEach</span> <span class="o">{</span> <span class="n">name</span><span class="o">,</span> <span class="n">result</span><span class="o">,</span> <span class="n">blocks</span><span class="o">,</span> <span class="n">iterations</span><span class="o">,</span> <span class="n">params</span> <span class="o">-&gt;</span>
+</span><span class='line'><span class="o">%&gt;</span>
+</span><span class='line'><span class="o">====</span> <span class="n">$name</span>
+</span><span class='line'>
+</span><span class='line'><span class="nl">Result:</span> <span class="o">**</span><span class="n">$result</span><span class="o">**</span>
+</span><span class='line'><span class="o">&lt;%</span>
+</span><span class='line'>        <span class="k">for</span> <span class="o">(</span> <span class="n">block</span> <span class="k">in</span> <span class="n">blocks</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'> <span class="o">%&gt;</span>
+</span><span class='line'><span class="o">*</span> <span class="n">$</span><span class="o">{</span><span class="n">block</span><span class="o">.</span><span class="na">kind</span><span class="o">}</span> <span class="n">$</span><span class="o">{</span><span class="n">block</span><span class="o">.</span><span class="na">text</span><span class="o">}</span>
+</span><span class='line'><span class="o">&lt;%</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>        <span class="kt">def</span> <span class="n">executedIterations</span> <span class="o">=</span> <span class="n">iterations</span><span class="o">.</span><span class="na">findAll</span> <span class="o">{</span> <span class="n">it</span><span class="o">.</span><span class="na">dataValues</span> <span class="o">||</span> <span class="n">it</span><span class="o">.</span><span class="na">errors</span> <span class="o">}</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span> <span class="n">params</span> <span class="o">&amp;&amp;</span> <span class="n">executedIterations</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'> <span class="o">%&gt;</span>
+</span><span class='line'><span class="o">[</span><span class="n">options</span><span class="o">=</span><span class="s2">&quot;header&quot;</span><span class="o">]</span>
+</span><span class='line'><span class="o">|====</span>
+</span><span class='line'><span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">params</span><span class="o">.</span><span class="na">join</span><span class="o">(</span> <span class="s1">&#39; | &#39;</span> <span class="o">)}</span> <span class="o">|</span>
+</span><span class='line'><span class="o">&lt;%</span>
+</span><span class='line'>            <span class="k">for</span> <span class="o">(</span> <span class="n">iteration</span> <span class="k">in</span> <span class="n">executedIterations</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'><span class="o">%&gt;|</span> <span class="n">$</span><span class="o">{</span><span class="n">iteration</span><span class="o">.</span><span class="na">dataValues</span><span class="o">.</span><span class="na">join</span><span class="o">(</span> <span class="s1">&#39; | &#39;</span> <span class="o">)}</span> <span class="o">|</span> <span class="n">$</span><span class="o">{</span><span class="n">iteration</span><span class="o">.</span><span class="na">errors</span> <span class="o">?</span> <span class="s1">&#39;(FAIL)&#39;</span> <span class="o">:</span> <span class="s1">&#39;(PASS)&#39;</span><span class="o">}</span>
+</span><span class='line'><span class="o">&lt;%</span>          <span class="o">}</span> 
+</span><span class='line'><span class="o">%&gt;|====</span>
+</span><span class='line'><span class="o">&lt;%</span>      <span class="o">}</span>
+</span><span class='line'>        <span class="kt">def</span> <span class="n">problems</span> <span class="o">=</span> <span class="n">executedIterations</span><span class="o">.</span><span class="na">findAll</span> <span class="o">{</span> <span class="n">it</span><span class="o">.</span><span class="na">errors</span> <span class="o">}</span>
+</span><span class='line'>        <span class="k">if</span> <span class="o">(</span> <span class="n">problems</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>            <span class="n">out</span> <span class="o">&lt;&lt;</span> <span class="s2">&quot;\nThe following problems occurred:\n\n&quot;</span>
+</span><span class='line'>            <span class="k">for</span> <span class="o">(</span> <span class="n">badIteration</span> <span class="k">in</span> <span class="n">problems</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                <span class="k">if</span> <span class="o">(</span> <span class="n">badIteration</span><span class="o">.</span><span class="na">dataValues</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                    <span class="n">out</span> <span class="o">&lt;&lt;</span> <span class="s1">&#39;* &#39;</span> <span class="o">&lt;&lt;</span> <span class="n">badIteration</span><span class="o">.</span><span class="na">dataValues</span> <span class="o">&lt;&lt;</span> <span class="s1">&#39;\n&#39;</span>
+</span><span class='line'>                <span class="o">}</span>
+</span><span class='line'>                <span class="k">for</span> <span class="o">(</span> <span class="n">error</span> <span class="k">in</span> <span class="n">badIteration</span><span class="o">.</span><span class="na">errors</span> <span class="o">)</span> <span class="o">{</span>
+</span><span class='line'>                    <span class="n">out</span> <span class="o">&lt;&lt;</span> <span class="s1">&#39;----\n&#39;</span> <span class="o">&lt;&lt;</span> <span class="n">error</span> <span class="o">&lt;&lt;</span> <span class="s1">&#39;\n----\n&#39;</span>
+</span><span class='line'>                <span class="o">}</span>
+</span><span class='line'>            <span class="o">}</span>
+</span><span class='line'>        <span class="o">}</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'> <span class="o">%&gt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="o">[</span><span class="n">small</span><span class="o">]</span><span class="err">#</span><span class="n">generated</span> <span class="n">by</span> <span class="n">$</span><span class="o">{</span><span class="n">com</span><span class="o">.</span><span class="na">athaydes</span><span class="o">.</span><span class="na">spockframework</span><span class="o">.</span><span class="na">report</span><span class="o">.</span><span class="na">SpockReportExtension</span><span class="o">.</span><span class="na">PROJECT_URL</span><span class="o">}[</span><span class="n">Athaydes</span> <span class="n">Spock</span> <span class="n">Reports</span><span class="o">]</span><span class="err">#</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>The result looks good :-) Now that we have the summary report and all spec reports, we can add a small section to the summary template which includes all spec reports or order to create one big report file:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'><span class="o">&lt;%</span> <span class="n">data</span><span class="o">.</span><span class="na">each</span> <span class="o">{</span> <span class="n">name</span><span class="o">,</span> <span class="n">map</span> <span class="o">-&gt;</span>
+</span><span class='line'> <span class="o">%&gt;</span>
+</span><span class='line'><span class="o">&lt;&lt;&lt;&lt;</span>
+</span><span class='line'>
+</span><span class='line'><span class="nl">include:</span><span class="o">:</span><span class="n">$</span><span class="o">{</span><span class="n">name</span><span class="o">}.</span><span class="na">ad</span><span class="o">[]</span>
+</span><span class='line'><span class="o">&lt;%</span> <span class="o">}</span> <span class="o">%&gt;</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>Now we only need to create a gradle task which renders it.</p>
+]]></content></entry><entry><title type="html"><![CDATA[How to use the Spock-Reports-Plugin with Gradle]]></title><link href="/blog/2015/03/14/how-to-use-the-spock-reports-plugin-with-gradle/"/><updated>2016-06-27T20:27:51+02:00</updated><id>/blog/2015/03/14/how-to-use-the-spock-reports-plugin-with-gradle/</id><content type="html"><![CDATA[<p>Since I experienced some problems when I tried to use the Spock-Reports-Plugin in Grails, I now tried to use it with Gradle.<!--more--></p>
+<p>The basics are easy and well described on the <a href="https://github.com/renatoathaydes/spock-reports">Spock-Reports page</a> - just add the needed repository and dependency to your gradle build file:</p>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+</pre></td><td class='code'><pre><code class='groovy'><span class='line'>    <span class="o">...</span>
+</span><span class='line'>    <span class="n">repositories</span> <span class="o">{</span>
+</span><span class='line'>        <span class="o">...</span>
+</span><span class='line'>        <span class="n">jcenter</span><span class="o">()</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="o">...</span>
+</span><span class='line'>
+</span><span class='line'>    <span class="n">dependencies</span> <span class="o">{</span>
+</span><span class='line'>        <span class="o">...</span>
+</span><span class='line'>        <span class="n">testCompile</span> <span class="s1">&#39;com.athaydes:spock-reports:1.2.5&#39;</span>
+</span><span class='line'>    <span class="o">}</span>
+</span><span class='line'>    <span class="o">...</span>
+</span></code></pre></td></tr></table></div></figure>
+<p>But where to place the properties file in case you want to modify some of them (for instance switch to the new template report engine)? Renato just writes that you should copy the properties <em>"to a file at <code>META-INF/services/com.athaydes.spockframework.report.IReportCreator.properties</code> relative to the classpath"</em>. Since I am a Gradle newbie, I had to do some experiments before I found out that one place where you can put it is the same as for maven: <code>src/test/resources/</code>. And <code>src/main/resources/</code> will also work.</p>
+]]></content></entry></feed>

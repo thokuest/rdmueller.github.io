@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>About - R.D.Müller - Bits from my Brain</title>
+  <title>Why I don't like Word to write documentation - R.D.Müller - Bits from my Brain</title>
   <meta name="author" content="Ralf D. Müller">
   
   
@@ -14,7 +14,7 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="/About.md">
+  <link rel="canonical" href="/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/">
   <link href="/images/favicon-eec3051d5c356d1798bea1d8a3617c51.png" rel="icon">
   <link href="/stylesheets/screen-212a3205d97b53ef71581e910c98f79c.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="atom.xml" rel="alternate" title="R.D.Müller - Bits from my Brain" type="application/atom+xml">
@@ -78,35 +78,109 @@
     <div id="content">
       
 <div class="blog-index">
-  <article class="hentry" role="article">
-    <p>My goal is to make the software-world a better place with one doc at a time.</p>
-<p>I truely believe that one of the biggest problems of the software-world isn't technology, skills or quality in the broad sense but missing <strong>documentation</strong>. Another is missing <strong>simplicity</strong>.</p>
-<p><strong>Regarding the documentation</strong> - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, you are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)</p>
-<p>So my aim is to build software on <a href="http://arc42.de">the works of Gernot Starke and Peter Hruschka</a> to make use of arc42 even easier. In order to achieve this goal, there are the following ressources available:</p>
-<ul>
-<li>the original arc42 pages in <a href="http://arc42.de">german</a> and <a href="http://arc42.org">english</a> (Created by Gernot Starke and Peter Hruschka)</li>
-<li>the <a href="https://github.com/arc42">arc42 ressources on github</a></li>
-<li>github.io pages containing the links to all known available <a href="http://arc42.github.io/">arc42 templates in different formats</a></li>
-<li>the <a href="https://github.com/rdmueller/asciidoc2confluence">asciidoc2confluence-script</a> to easily publish your docs to confluence</li>
-</ul>
-<p>In addition to arc42, my second stream of thoughts is about the documentation of test results. The red/green output of unit tests is often not enough - it doesn't say <em>what</em> has been tested and also reading the code is not the solution for all stakeholders.</p>
-<p>So I first came up with the <a href="https://github.com/rdmueller/grails-filmStrip">Grails FilmStrip-Plugin</a> which displays screenshots made with the functional test module of <a href="https://www.grails.org">Grails</a>, as a film strip. This way, anybody can easily inspect those screens and check <em>what</em> has been tested.</p>
-<p>Together with <a href="https://twitter.com/tokraft">Tobias Kraft</a> we developed this idea further and merged the test specification created for <a href="https://github.com/spockframework">Spock</a> Tests with the screenshots made with <a href="http://www.gebish.org/">Geb</a> and came up with a good looking test report. As a result, there is</p>
-<ul>
-<li>the <a href="https://github.com/rdmueller/Excel2Spec">execl2spec</a> script on github which let's you define the spock specification in a spreadsheet. A script will turn the spreadsheet in a Spock test skeleton.</li>
-<li>a <a href="https://github.com/rdmueller/etka15">full blown example</a> for creating asciidoc based test reports with Geb based screenshots</li>
-<li>we presented the example at <a href="https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle">Entwicklertag Karlsruhe 2015</a> (<a href="https://www.youtube.com/watch?v=L75DdPon5Gk">video</a>)and <a href="https://www.javaland.eu/de/archiv-2016/">JavaLand 2016</a> (both talks where held in german)</li>
-</ul>
-<p><strong>When it comes to simplicity</strong> I often have to think about a talk given by <a href="https://twitter.com/mittie">Dierk König</a> with the headline <a href="https://www.dropbox.com/s/ui38pl12wobrgdl/Dierk_Koenig-Einfach-JAX2013.pdf?dl=0">"Einfach" - "Simple"</a>. The "facts" presented in this talk might not have a scientific foundation, but they sum up what many of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."</p>
-<hr />
-<p>The Blog uses github pages together with <a href="https://github.com/jekyll/jekyll">Jekyll</a> as engine. Template from <a href="http://www.jekyllnow.com/">Jekyll Now</a></p>
-<h4>Contribute</h4>
-<p>You've found a typo? You've got a good idea for an article for this blog?</p>
-<p>Just for this repository on https://github.com/rdmueller/rdmueller.github.io and send a pull request!</p>
-<h4>Contact me</h4>
-<p><a href="mailto:ralf.d.mueller@gmail.com">ralf.d.mueller@gmail.com</a></p>
+<article class="hentry" role="article">
+  <article>
 
-  </article>
+  <header>
+    
+      <h1 class="entry-title">Why I Don't Like Word to Write Documentation</h1>
+    
+    
+      <p class="meta">
+        
+
+
+    <time datetime="2016-05-16T12:00:00+02:00" pubdate data-updated=true>
+      <span class="month">May</span>
+      <span class="day">16</span>,
+      <span class="year">2016</span>
+    </time>
+  
+
+
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Don't get me wrong &ndash; MS Word is a great product for many use cases, but most of them are IMHO outdated (like writing a letter) and writing modern documentation is not a use case where MS Word shines.<!--more--></p>
+<p>Today we live in the information age, but Word is page oriented &ndash; Word lets you write documents with pages, page numbers, page header and footer etc. <br  />
+The table of contents lists the page numbers the content can be found on &ndash; linking to the content is not a first class feature.</p>
+<p>When I write down the documentation for a project, I don't want to create pages &ndash; I want to dump information. The format in which the information will be published is important, but it is even more important to have the freedom to change the format to &ndash; for example &ndash; HTML, ePub, Word, PDF and whatever may come in the future and what my stakeholders need. +
+Yes, Word can be saved as HTML and printed as PDF, but that's not the same.</p>
+<p>Interesting about Word is that it implements many advanced features which seem to be hard to use. <br  />
+Did you know that Word lets you…</p>
+<ul>
+<li>compare two documents?</li>
+<li>compose a document from subdocuments?</li>
+<li>reference images instead of embedding them?</li>
+</ul>
+<p>These are great features, but since we are not used to them, they are hard to handle.</p>
+<p>Instead of comparing documents and checking the diff, we use templates with a change history table as part of the document. A proper diff together with version control would be more helpful.</p>
+<p>Instead of composing documents from subdocuments, we copy and paste parts from document to document in order to create views for different stakeholders. A habit which would not be tolerated in software development :-)</p>
+<p>When we use images in documents, they are embedded. So if we want to make a change, we first have to search for the source file (and hopefully find it), change it and embed it again. Storing only the reference to the image within the document would make this easier.</p>
+<p>Unfortunately, composing documents and referencing images result in multifile documents which people are not used to and would break the "please mail me the doc" flow.</p>
+<p>So what's the solution? Stay tuned and I will explain in my next post why I prefer asciidoc over Word...</p>
+</div>
+
+</article>
+
+  <footer>
+    <p class="meta">
+      
+
+  <span class="byline author vcard">Posted by <a href="/authors/ralf-d-muller/"><span class="fn">Ralf D. Müller</span></a></span>
+
+
+      
+
+
+
+
+     <time datetime="2016-06-27T20:29:52+02:00" class="updated">
+       Updated
+       <span class="month">Jun</span>
+       <span class="day">27</span>,
+       <span class="year">2016</span>
+     </time>
+
+      
+<div class="categories">
+  <p class="meta">Tags:</p>
+  
+     <a class="category" href="/categories/asciidoc/">asciidoc</a>
+  
+     <a class="category" href="/categories/documentation/">documentation</a>
+  
+</div>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/" data-via="RalfDMueller" data-counturl="/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/" data-lang="en">Tweet</a>
+  
+  
+    <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/" title="Previous Post: Why you should use AsciiDoc to document your Software Solution">&laquo; Why You Should Use AsciiDoc to Document Your Software Solution</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/05/09/groovy-is-java-is-groovy/" title="Next Post: Groovy is Java is Groovy...">Groovy Is Java Is Groovy... &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
 </div>
 

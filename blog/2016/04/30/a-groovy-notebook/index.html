@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>About - R.D.Müller - Bits from my Brain</title>
+  <title>A Groovy Notebook - R.D.Müller - Bits from my Brain</title>
   <meta name="author" content="Ralf D. Müller">
   
   
@@ -14,7 +14,7 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="/About.md">
+  <link rel="canonical" href="/blog/2016/04/30/a-groovy-notebook/">
   <link href="/images/favicon-eec3051d5c356d1798bea1d8a3617c51.png" rel="icon">
   <link href="/stylesheets/screen-212a3205d97b53ef71581e910c98f79c.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="atom.xml" rel="alternate" title="R.D.Müller - Bits from my Brain" type="application/atom+xml">
@@ -78,35 +78,109 @@
     <div id="content">
       
 <div class="blog-index">
-  <article class="hentry" role="article">
-    <p>My goal is to make the software-world a better place with one doc at a time.</p>
-<p>I truely believe that one of the biggest problems of the software-world isn't technology, skills or quality in the broad sense but missing <strong>documentation</strong>. Another is missing <strong>simplicity</strong>.</p>
-<p><strong>Regarding the documentation</strong> - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, you are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)</p>
-<p>So my aim is to build software on <a href="http://arc42.de">the works of Gernot Starke and Peter Hruschka</a> to make use of arc42 even easier. In order to achieve this goal, there are the following ressources available:</p>
-<ul>
-<li>the original arc42 pages in <a href="http://arc42.de">german</a> and <a href="http://arc42.org">english</a> (Created by Gernot Starke and Peter Hruschka)</li>
-<li>the <a href="https://github.com/arc42">arc42 ressources on github</a></li>
-<li>github.io pages containing the links to all known available <a href="http://arc42.github.io/">arc42 templates in different formats</a></li>
-<li>the <a href="https://github.com/rdmueller/asciidoc2confluence">asciidoc2confluence-script</a> to easily publish your docs to confluence</li>
-</ul>
-<p>In addition to arc42, my second stream of thoughts is about the documentation of test results. The red/green output of unit tests is often not enough - it doesn't say <em>what</em> has been tested and also reading the code is not the solution for all stakeholders.</p>
-<p>So I first came up with the <a href="https://github.com/rdmueller/grails-filmStrip">Grails FilmStrip-Plugin</a> which displays screenshots made with the functional test module of <a href="https://www.grails.org">Grails</a>, as a film strip. This way, anybody can easily inspect those screens and check <em>what</em> has been tested.</p>
-<p>Together with <a href="https://twitter.com/tokraft">Tobias Kraft</a> we developed this idea further and merged the test specification created for <a href="https://github.com/spockframework">Spock</a> Tests with the screenshots made with <a href="http://www.gebish.org/">Geb</a> and came up with a good looking test report. As a result, there is</p>
-<ul>
-<li>the <a href="https://github.com/rdmueller/Excel2Spec">execl2spec</a> script on github which let's you define the spock specification in a spreadsheet. A script will turn the spreadsheet in a Spock test skeleton.</li>
-<li>a <a href="https://github.com/rdmueller/etka15">full blown example</a> for creating asciidoc based test reports with Geb based screenshots</li>
-<li>we presented the example at <a href="https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle">Entwicklertag Karlsruhe 2015</a> (<a href="https://www.youtube.com/watch?v=L75DdPon5Gk">video</a>)and <a href="https://www.javaland.eu/de/archiv-2016/">JavaLand 2016</a> (both talks where held in german)</li>
-</ul>
-<p><strong>When it comes to simplicity</strong> I often have to think about a talk given by <a href="https://twitter.com/mittie">Dierk König</a> with the headline <a href="https://www.dropbox.com/s/ui38pl12wobrgdl/Dierk_Koenig-Einfach-JAX2013.pdf?dl=0">"Einfach" - "Simple"</a>. The "facts" presented in this talk might not have a scientific foundation, but they sum up what many of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."</p>
-<hr />
-<p>The Blog uses github pages together with <a href="https://github.com/jekyll/jekyll">Jekyll</a> as engine. Template from <a href="http://www.jekyllnow.com/">Jekyll Now</a></p>
-<h4>Contribute</h4>
-<p>You've found a typo? You've got a good idea for an article for this blog?</p>
-<p>Just for this repository on https://github.com/rdmueller/rdmueller.github.io and send a pull request!</p>
-<h4>Contact me</h4>
-<p><a href="mailto:ralf.d.mueller@gmail.com">ralf.d.mueller@gmail.com</a></p>
+<article class="hentry" role="article">
+  <article>
 
-  </article>
+  <header>
+    
+      <h1 class="entry-title">A Groovy Notebook</h1>
+    
+    
+      <p class="meta">
+        
+
+
+    <time datetime="2016-04-30T12:00:00+02:00" pubdate data-updated=true>
+      <span class="month">Apr</span>
+      <span class="day">30</span>,
+      <span class="year">2016</span>
+    </time>
+  
+
+
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>From time to time I stumble upon a web application which lets you write notebooks like the ones you know from Mathematica. They let you mix formatted text which explains your code with code snippets. The output of those snippets is displayed and the code builds up snippet by snippet.<!--more--></p>
+<div style="text-align: center;">
+<img src="../images/Jypiter.png" style="width:100%;" />
+<span style="font-size: smaller;">Taken from the <a href="http://blog.jupyter.org/2016/01/08/notebook-4-1-release/">Jypter Blog</a></span>
+</div>
+<p>This time it was <a href="http://jupyter.org/">Jypiter</a>, formerly known as <a href="http://ipython.org/notebook.html">IPython Notebook</a>. It evolved from a notebook just for Python to a cool solution suitable for all kind of languages. Unfortunately, Groovy isn't yet in the list of supported languages.</p>
+<p>Since Python is not my mother tongue and I couldn't find good documentation on how to support an additional language, I thought about other ways to create a notebook for Groovy.</p>
+<p>Inspired by the talk <a href="http://greachconf.com/speakers/stephan-classen-make-your-asciidoctor-groovy/">"Make your Asciidoctor Groovy"</a> by Stephan Classen (which I unfortunately haven't attended), I decided to create an asciidoctorj plugin in Groovy which lets you execute Groovy code inline.</p>
+<p>There are already great examples of plugins written in Groovy, so I had a good starting point:</p>
+<ul>
+<li>Stephan Classen: <a href="https://github.com/asciidoctor/asciidoctorj-screenshot">asciidoctorj-screenshot</a></li>
+<li>mrhaki: <a href="http://mrhaki.blogspot.de/2014/08/awesome-asciidoc-write-extensions-using.html">Awesome Asciidoctor: Write Extensions Using Groovy (or Java)</a></li>
+<li>Andreas Almiray: <a href="http://www.jroller.com/aalmiray/entry/gradle_glam_custom_asciidoctor_extensions">Gradle Glam: custom asciidoctor extensions</a></li>
+</ul>
+<p>So I took one of them as starting point and came up with <a href="https://github.com/rdmueller/asciidoctorj-groovy">my own project</a>. The core of the extension is shown here:</p>
+<p><script src="https://gist.github.com/rdmueller/037182fb79193d98835db2507edf7759.js"></script></p>
+<p>It is activated whenever asciidoctor hits a <code>[groovy]</code> block. It then takes the content of the block, executes it and renders the original script together with the output. Infortunately, I couldn't find a way to return two different blocks in my extension - one which renders the source with highlighting and one which renders the pre-formatted output - so I had to do an ugly workaround which directly renders HTML. Do the simplest think which works :-)</p>
+<p>Here is an example of the static rendered output: <a href="https://rawgit.com/rdmueller/asciidoctorj-groovy/master/example.html">example.html</a> with the corrsponding <a href="https://github.com/rdmueller/asciidoctorj-groovy/blob/master/src/asciidoc/index.adoc">input</a>.</p>
+</div>
+
+</article>
+
+  <footer>
+    <p class="meta">
+      
+
+  <span class="byline author vcard">Posted by <a href="/authors/ralf-d-muller/"><span class="fn">Ralf D. Müller</span></a></span>
+
+
+      
+
+
+
+
+     <time datetime="2016-06-27T20:29:40+02:00" class="updated">
+       Updated
+       <span class="month">Jun</span>
+       <span class="day">27</span>,
+       <span class="year">2016</span>
+     </time>
+
+      
+<div class="categories">
+  <p class="meta">Tags:</p>
+  
+     <a class="category" href="/categories/groovy/">groovy</a>
+  
+     <a class="category" href="/categories/asciidoc/">asciidoc</a>
+  
+</div>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="/blog/2016/04/30/a-groovy-notebook/" data-via="RalfDMueller" data-counturl="/blog/2016/04/30/a-groovy-notebook/" data-lang="en">Tweet</a>
+  
+  
+    <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/blog/2016/05/09/groovy-is-java-is-groovy/" title="Previous Post: Groovy is Java is Groovy...">&laquo; Groovy Is Java Is Groovy...</a>
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/04/28/wacom-bamboo-spark-could-have-been-so-much-more/" title="Next Post: Wacom Bamboo Spark - could have been so much more...">Wacom Bamboo Spark - Could Have Been So Much More... &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
 </div>
 

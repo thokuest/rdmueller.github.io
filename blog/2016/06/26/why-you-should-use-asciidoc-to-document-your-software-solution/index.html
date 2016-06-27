@@ -5,7 +5,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title>About - R.D.Müller - Bits from my Brain</title>
+  <title>Why you should use AsciiDoc to document your Software Solution - R.D.Müller - Bits from my Brain</title>
   <meta name="author" content="Ralf D. Müller">
   
   
@@ -14,7 +14,7 @@
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <link rel="canonical" href="/About.md">
+  <link rel="canonical" href="/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/">
   <link href="/images/favicon-eec3051d5c356d1798bea1d8a3617c51.png" rel="icon">
   <link href="/stylesheets/screen-212a3205d97b53ef71581e910c98f79c.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="atom.xml" rel="alternate" title="R.D.Müller - Bits from my Brain" type="application/atom+xml">
@@ -78,35 +78,116 @@
     <div id="content">
       
 <div class="blog-index">
-  <article class="hentry" role="article">
-    <p>My goal is to make the software-world a better place with one doc at a time.</p>
-<p>I truely believe that one of the biggest problems of the software-world isn't technology, skills or quality in the broad sense but missing <strong>documentation</strong>. Another is missing <strong>simplicity</strong>.</p>
-<p><strong>Regarding the documentation</strong> - there are some open source projects out there which do have great user documentation, but as soon as you try to change the code, you are on your own - no documentation of the solution architecture. I only remember one open source project with a proper documentation of the solution architecture (http://biking.michael-simons.eu/docs/index.html), but maybe I don't know enough OS projects :-)</p>
-<p>So my aim is to build software on <a href="http://arc42.de">the works of Gernot Starke and Peter Hruschka</a> to make use of arc42 even easier. In order to achieve this goal, there are the following ressources available:</p>
-<ul>
-<li>the original arc42 pages in <a href="http://arc42.de">german</a> and <a href="http://arc42.org">english</a> (Created by Gernot Starke and Peter Hruschka)</li>
-<li>the <a href="https://github.com/arc42">arc42 ressources on github</a></li>
-<li>github.io pages containing the links to all known available <a href="http://arc42.github.io/">arc42 templates in different formats</a></li>
-<li>the <a href="https://github.com/rdmueller/asciidoc2confluence">asciidoc2confluence-script</a> to easily publish your docs to confluence</li>
-</ul>
-<p>In addition to arc42, my second stream of thoughts is about the documentation of test results. The red/green output of unit tests is often not enough - it doesn't say <em>what</em> has been tested and also reading the code is not the solution for all stakeholders.</p>
-<p>So I first came up with the <a href="https://github.com/rdmueller/grails-filmStrip">Grails FilmStrip-Plugin</a> which displays screenshots made with the functional test module of <a href="https://www.grails.org">Grails</a>, as a film strip. This way, anybody can easily inspect those screens and check <em>what</em> has been tested.</p>
-<p>Together with <a href="https://twitter.com/tokraft">Tobias Kraft</a> we developed this idea further and merged the test specification created for <a href="https://github.com/spockframework">Spock</a> Tests with the screenshots made with <a href="http://www.gebish.org/">Geb</a> and came up with a good looking test report. As a result, there is</p>
-<ul>
-<li>the <a href="https://github.com/rdmueller/Excel2Spec">execl2spec</a> script on github which let's you define the spock specification in a spreadsheet. A script will turn the spreadsheet in a Spock test skeleton.</li>
-<li>a <a href="https://github.com/rdmueller/etka15">full blown example</a> for creating asciidoc based test reports with Geb based screenshots</li>
-<li>we presented the example at <a href="https://entwicklertag.de/karlsruhe/2015/spock-und-geb-bersichtlich-und-nachvollziehbar-testen-f-r-alle">Entwicklertag Karlsruhe 2015</a> (<a href="https://www.youtube.com/watch?v=L75DdPon5Gk">video</a>)and <a href="https://www.javaland.eu/de/archiv-2016/">JavaLand 2016</a> (both talks where held in german)</li>
-</ul>
-<p><strong>When it comes to simplicity</strong> I often have to think about a talk given by <a href="https://twitter.com/mittie">Dierk König</a> with the headline <a href="https://www.dropbox.com/s/ui38pl12wobrgdl/Dierk_Koenig-Einfach-JAX2013.pdf?dl=0">"Einfach" - "Simple"</a>. The "facts" presented in this talk might not have a scientific foundation, but they sum up what many of us experience every day and Edsger Dijkstra fomulated as "Simplicity is a great virtue but it requires hard work to achieve it and education to appreciate it. And to make matters worse: complexity sells better."</p>
-<hr />
-<p>The Blog uses github pages together with <a href="https://github.com/jekyll/jekyll">Jekyll</a> as engine. Template from <a href="http://www.jekyllnow.com/">Jekyll Now</a></p>
-<h4>Contribute</h4>
-<p>You've found a typo? You've got a good idea for an article for this blog?</p>
-<p>Just for this repository on https://github.com/rdmueller/rdmueller.github.io and send a pull request!</p>
-<h4>Contact me</h4>
-<p><a href="mailto:ralf.d.mueller@gmail.com">ralf.d.mueller@gmail.com</a></p>
+<article class="hentry" role="article">
+  <article>
 
-  </article>
+  <header>
+    
+      <h1 class="entry-title">Why You Should Use AsciiDoc to Document Your Software Solution</h1>
+    
+    
+      <p class="meta">
+        
+
+
+    <time datetime="2016-06-26T12:00:00+02:00" pubdate data-updated=true>
+      <span class="month">Jun</span>
+      <span class="day">26</span>,
+      <span class="year">2016</span>
+    </time>
+  
+
+
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Last week I wrote about why I don't like  Word, but I didn't mention an alternative.<!--more--></p>
+<p>For me, AsciiDoc as markup format is a perfect alternative for technical documents. Together with the tooling provided by the AsciiDoctorJ community it fulfills all my requirements.</p>
+<p>AsciiDoc is a plain text format and thus just stores the information you want to document. The text will contain - besides tables - no layout. The layout is created by whatever renderer you chose. Since you don't have to worry about the layout, it also will not distract you. No "argh - how do I get this paragraph together with the diagram on one page?"!</p>
+<p>And since it is plain text, you can happily store it along with the source code of your project. This not only solves versioning problems. You can now apply version control, "code"-review and diffs the same way you are used to do with your code. It also solves the first problem of your information architecture: Where are documents stored?</p>
+<p>Now, let's take a look at the extra features AsciiDoc provides over real plain text.</p>
+<h2>http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#images[Images are referenced and not embedded]:</h2>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>image::sunset.jpg[] 
+</span><span class='line'>image::sunset.jpg[Sunset] 
+</span><span class='line'>[[img-sunset]] 
+</span><span class='line'>image::sunset.jpg[caption=&quot;Figure 1: &quot;, title=&quot;A mountain sunset&quot;, alt=&quot;Sunset&quot;, width=&quot;300&quot;, height=&quot;200&quot;, link=&quot;http://www.flickr.com/photos/javh/5448336655&quot;] 
+</span><span class='line'>image::http://asciidoctor.org/images/octocat.jpg[GitHub mascot]
+</span></code></pre></td></tr></table></div></figure>
+<p>This opens up new possibilities when you want to keep your documents up to date. No more "someone should update this diagram, but where is the source" and "I will do it later, it's too much effort now". The document will reference the image and the source of the image (UML Model, Powerpoint etc.) will be in the same location or at least referenced from the build of your documentation. Yes - build - because no body likes to read plain asciidoc, you will have to render it to a more suitable output format. This is best done with the build tools you already know: maven or gradle. And this adds the new possibilities: you take the source file of your diagrams, images, slides etc. and extract the images just before the document gets rendered. This way you only have to update the soruce, not the document.</p>
+<p>BTW: that's part two of your new information architecture - you not only know where your documents are stored, you also reference the location of external sources for images.</p>
+<h2>Plugins extend the capabilities of AsciiDoc</h2>
+<p>The plugin I like most is the http://www.plantuml.com[PlantUML] plugin. When installed, you can describe UML diagrams in plain text and it will be rendered with the document. The magic is the same as with AsciiDoc - you don't have to care about the layout. PlantUML will render the boxes for you. This does not always make sense, but for certain types of diagrams it is bettern tan any other tool.</p>
+<p>For instance when it comes to sequence diagrams - you don't want to layout them manually and PlantUML does a really good job for sequence diagrams.</p>
+<p>Here is an example for PlantUML inside AsciiDoc:</p>
+<p>TODO</p>
+<h2>Subdocuments can be referenced</h2>
+<p>Just put all your chapters in subdocuments and create a master which includes them for the rendering of the whole document. This makes it easier to handle you text. And if you need different compositions for different stakeholders, just create additional "master" documents which rearrange, leave out or even add new chapters.</p>
+<p>TODO example of subdocuments</p>
+</div>
+
+</article>
+
+  <footer>
+    <p class="meta">
+      
+
+  <span class="byline author vcard">Posted by <a href="/authors/ralf-d-muller/"><span class="fn">Ralf D. Müller</span></a></span>
+
+
+      
+
+
+
+
+     <time datetime="2016-06-27T20:26:46+02:00" class="updated">
+       Updated
+       <span class="month">Jun</span>
+       <span class="day">27</span>,
+       <span class="year">2016</span>
+     </time>
+
+      
+<div class="categories">
+  <p class="meta">Tags:</p>
+  
+     <a class="category" href="/categories/asciidoc/">asciidoc</a>
+  
+     <a class="category" href="/categories/documentation/">documentation</a>
+  
+</div>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+    <a href="https://twitter.com/share" class="twitter-share-button" data-url="/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/" data-via="RalfDMueller" data-counturl="/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/" data-lang="en">Tweet</a>
+  
+  
+    <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+      
+        <a class="basic-alignment right" href="/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/" title="Next Post: Why I don't like Word to write documentation">Why I Don't Like Word to Write Documentation &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
 
 </div>
 

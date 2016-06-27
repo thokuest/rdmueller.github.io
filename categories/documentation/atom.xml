@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom"><title><![CDATA[R.D.Müller - Bits from my Brain]]></title><link href="/categories/documentation/atom.xml" rel="self"/><link href="/"/><updated>2016-06-26T18:03:39+02:00</updated><id>/</id><author><name><![CDATA[Ralf D. Müller]]></name><email><![CDATA[ralf.d.mueller@gmail.com]]></email></author><generator uri="http://sysgears.com/grain/">Grain</generator><entry><title type="html"><![CDATA[Why you should use AsciiDoc to document your Software Solution]]></title><link href="/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/"/><updated>2016-06-27T20:26:46+02:00</updated><id>/blog/2016/06/26/why-you-should-use-asciidoc-to-document-your-software-solution/</id><content type="html"><![CDATA[<p>Last week I wrote about why I don't like  Word, but I didn't mention an alternative.<!--more--></p>
+<p>For me, AsciiDoc as markup format is a perfect alternative for technical documents. Together with the tooling provided by the AsciiDoctorJ community it fulfills all my requirements.</p>
+<p>AsciiDoc is a plain text format and thus just stores the information you want to document. The text will contain - besides tables - no layout. The layout is created by whatever renderer you chose. Since you don't have to worry about the layout, it also will not distract you. No "argh - how do I get this paragraph together with the diagram on one page?"!</p>
+<p>And since it is plain text, you can happily store it along with the source code of your project. This not only solves versioning problems. You can now apply version control, "code"-review and diffs the same way you are used to do with your code. It also solves the first problem of your information architecture: Where are documents stored?</p>
+<p>Now, let's take a look at the extra features AsciiDoc provides over real plain text.</p>
+<h2>http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/#images[Images are referenced and not embedded]:</h2>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+</pre></td><td class='code'><pre><code class='html'><span class='line'>image::sunset.jpg[] 
+</span><span class='line'>image::sunset.jpg[Sunset] 
+</span><span class='line'>[[img-sunset]] 
+</span><span class='line'>image::sunset.jpg[caption=&quot;Figure 1: &quot;, title=&quot;A mountain sunset&quot;, alt=&quot;Sunset&quot;, width=&quot;300&quot;, height=&quot;200&quot;, link=&quot;http://www.flickr.com/photos/javh/5448336655&quot;] 
+</span><span class='line'>image::http://asciidoctor.org/images/octocat.jpg[GitHub mascot]
+</span></code></pre></td></tr></table></div></figure>
+<p>This opens up new possibilities when you want to keep your documents up to date. No more "someone should update this diagram, but where is the source" and "I will do it later, it's too much effort now". The document will reference the image and the source of the image (UML Model, Powerpoint etc.) will be in the same location or at least referenced from the build of your documentation. Yes - build - because no body likes to read plain asciidoc, you will have to render it to a more suitable output format. This is best done with the build tools you already know: maven or gradle. And this adds the new possibilities: you take the source file of your diagrams, images, slides etc. and extract the images just before the document gets rendered. This way you only have to update the soruce, not the document.</p>
+<p>BTW: that's part two of your new information architecture - you not only know where your documents are stored, you also reference the location of external sources for images.</p>
+<h2>Plugins extend the capabilities of AsciiDoc</h2>
+<p>The plugin I like most is the http://www.plantuml.com[PlantUML] plugin. When installed, you can describe UML diagrams in plain text and it will be rendered with the document. The magic is the same as with AsciiDoc - you don't have to care about the layout. PlantUML will render the boxes for you. This does not always make sense, but for certain types of diagrams it is bettern tan any other tool.</p>
+<p>For instance when it comes to sequence diagrams - you don't want to layout them manually and PlantUML does a really good job for sequence diagrams.</p>
+<p>Here is an example for PlantUML inside AsciiDoc:</p>
+<p>TODO</p>
+<h2>Subdocuments can be referenced</h2>
+<p>Just put all your chapters in subdocuments and create a master which includes them for the rendering of the whole document. This makes it easier to handle you text. And if you need different compositions for different stakeholders, just create additional "master" documents which rearrange, leave out or even add new chapters.</p>
+<p>TODO example of subdocuments</p>
+]]></content></entry><entry><title type="html"><![CDATA[Why I don't like Word to write documentation]]></title><link href="/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/"/><updated>2016-06-27T20:29:52+02:00</updated><id>/blog/2016/05/16/why-i-don-t-like-word-to-write-documentation/</id><content type="html"><![CDATA[<p>Don't get me wrong &ndash; MS Word is a great product for many use cases, but most of them are IMHO outdated (like writing a letter) and writing modern documentation is not a use case where MS Word shines.<!--more--></p>
+<p>Today we live in the information age, but Word is page oriented &ndash; Word lets you write documents with pages, page numbers, page header and footer etc. <br  />
+The table of contents lists the page numbers the content can be found on &ndash; linking to the content is not a first class feature.</p>
+<p>When I write down the documentation for a project, I don't want to create pages &ndash; I want to dump information. The format in which the information will be published is important, but it is even more important to have the freedom to change the format to &ndash; for example &ndash; HTML, ePub, Word, PDF and whatever may come in the future and what my stakeholders need. +
+Yes, Word can be saved as HTML and printed as PDF, but that's not the same.</p>
+<p>Interesting about Word is that it implements many advanced features which seem to be hard to use. <br  />
+Did you know that Word lets you…</p>
+<ul>
+<li>compare two documents?</li>
+<li>compose a document from subdocuments?</li>
+<li>reference images instead of embedding them?</li>
+</ul>
+<p>These are great features, but since we are not used to them, they are hard to handle.</p>
+<p>Instead of comparing documents and checking the diff, we use templates with a change history table as part of the document. A proper diff together with version control would be more helpful.</p>
+<p>Instead of composing documents from subdocuments, we copy and paste parts from document to document in order to create views for different stakeholders. A habit which would not be tolerated in software development :-)</p>
+<p>When we use images in documents, they are embedded. So if we want to make a change, we first have to search for the source file (and hopefully find it), change it and embed it again. Storing only the reference to the image within the document would make this easier.</p>
+<p>Unfortunately, composing documents and referencing images result in multifile documents which people are not used to and would break the "please mail me the doc" flow.</p>
+<p>So what's the solution? Stay tuned and I will explain in my next post why I prefer asciidoc over Word...</p>
+]]></content></entry></feed>
