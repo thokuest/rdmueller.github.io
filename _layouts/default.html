@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+    <meta name="google-site-verification" content="NEUbGcdkmiyrydUWYYYnyGZvXwhiEAftnVfG5FQ8ykg" />
+    <title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.name }} – {{ site.description }}</title>
+
+    <meta name="author" content="{{ site.name }}" />
+    <meta name="description" content="{{ site.description }}">
+
+    <!--[if lt IE 9]>
+      <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+    <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+    <link rel="alternate" type="application/rss+xml" title="{{ site.name }} - {{ site.description }}" href="{{ site.baseurl }}/feed.xml" />
+    <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
+    <!-- 'Es liegt in Ihrer Verantwortung, Ihre Besucher über die in Ihrem Blog verwendeten Cookies zu informieren. Weitere Informationen finden Sie hier http://www.blogger.com/go/cookiechoices.' -->
+<script src="/js/cookiechoices.js" defer></script>
+    <script>
+  document.addEventListener('DOMContentLoaded', function(event) {
+    window.cookieChoices && cookieChoices.showCookieConsentBar && cookieChoices.showCookieConsentBar(
+        (window.cookieOptions && cookieOptions.msg) || 'Diese Website verwendet Cookies von Google, um ihre Dienste bereitzustellen, Anzeigen zu personalisieren und Zugriffe zu analysieren. Informationen darüber, wie Sie die Website verwenden, werden an Google weitergegeben. Durch die Nutzung dieser Website erklären Sie sich damit einverstanden, dass sie Cookies verwendet.',
+        (window.cookieOptions && cookieOptions.close) || 'OK',
+        (window.cookieOptions && cookieOptions.learn) || 'Weitere Informationen',
+        (window.cookieOptions && cookieOptions.link) || 'https://www.blogger.com/go/blogspot-cookies');
+  });
+</script>
+<style>
+.cookie-choices-info {
+	font-size: 50%;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+.clearfix {
+	margin-top: 60px;
+}
+</style>
+
+  </head>
+
+  <body>
+    <div class="wrapper-masthead">
+      <div class="container">
+        <header class="masthead clearfix">
+          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
+          
+          <div class="site-info">
+            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
+            <p class="site-description">{{ site.description }}</p>
+          </div>
+          
+          <nav style="margin-top: 0px; text-align: right;">
+            <a href="{{ site.baseurl }}/">Blog</a>
+            <a href="{{ site.baseurl }}/twitter">Twitter</a>
+            <a href="{{ site.baseurl }}/about">About</a>
+            <br /><br />
+            {% include svg-icons.html %}
+          </nav>
+        </header>
+          <div class="tags" style="font-size:small;">
+          	Tags: 
+          	<a href="/">all</a> |
+          	<a href="/blog/tag/arc42/">arc42</a> |
+          	<a href="/blog/tag/asciidoc/">AsciiDoc</a> |
+          	<a href="/blog/tag/spock/">Spock</a> |
+          	<a href="/blog/tag/geb/">Geb</a> |
+          	<a href="/blog/tag/groovy/">Groovy</a> |
+          	<a href="/blog/tag/grails/">Grails</a> |
+          	<a href="/blog/tag/gradle/">Gradle</a> 
+          </div>
+      </div>
+    </div>
+
+    <div id="main" role="main" class="container">
+      {{ content }}
+    </div>
+
+    <div class="wrapper-footer">
+      <div class="container">
+        <footer class="footer">
+          {% include svg-icons.html %}
+          <a href="https://stackexchange.com/users/70694">
+          <img src="https://stackexchange.com/users/flair/70694.png" width="208" height="58" alt="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites" title="profile for Ralf on Stack Exchange, a network of free, community-driven Q&amp;A sites">
+          
+          </a>          
+          <a href='https://www.openhub.net/accounts/329588?ref=Detailed' target='_blank'>
+<img alt='Open Hub profile for rdmueller' border='0' height='35' src='https://www.openhub.net/accounts/329588/widgets/account_detailed.gif' width='230' />
+</a>
+        </footer>
+      </div>
+    </div>
+
+    {% include analytics.html %}
+  </body>
+</html>
