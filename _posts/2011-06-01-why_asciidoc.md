@@ -62,3 +62,7 @@ include::Chapter_02.adoc[]
 include::Chapter_03.adoc[]
 ```
 
+## tl;dr
+
+These are only a few reasons why I favour Asciidoc over MS Word. The main reason is that it looks like code, feels like code, can be controlled like code and builds like code. And that's what counts :-)
+
