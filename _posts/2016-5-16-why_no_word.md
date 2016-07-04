@@ -30,3 +30,5 @@ When we use images in documents, they are embedded. So if we want to make a chan
 Unfortunately, composing documents and referencing images result in multifile documents which people are not used to and would break the "please mail me the doc" flow.
 
 So what's the solution? Stay tuned and I will explain in my next post why I prefer asciidoc over Word...
+
+Next post: [Why you should use AsciiDoc to document your Software Solution](https://rdmueller.github.io/why_asciidoc/)
