@@ -22,7 +22,7 @@
 - slug: asciidoc
   name: asciidoc
 
-- slug: documentation
+- slug: doc
   name: Documentation
   
 - slug: gradle
