@@ -32,7 +32,7 @@ This created a simple `build.gradle` file and also added `gradlew` the Gradle-wr
 
 The `build.gradle` file might be a good starting point for a normal project, but in this case, I just replace it with the following one taken from TODO:
 
-``` gradle
+``` java
 /*
  * This build file is part of the docToolchain
  */
@@ -48,7 +48,7 @@ To get a slightly more challinging document than a simple "Hello World", let's c
 
 The `test.asciidoc` file is configured to use an external style sheet which is missing in our setup. So to use the internal stylesheet, change the beginning of the file to the following:
 
-``` asciidoc
+``` 
 //:stylesheet: asciidoc.css
 :imagesdir: images
 //:backend: docbook45
