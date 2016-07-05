@@ -12,7 +12,7 @@ Today I want to show you how to unleash the power and get started.
 
 Let's first start with Gradle. I like Gradle much because it is modern and avoids unwanted complexity. But I am far from being a Gradle expert. Everytime I need a feature, I have to google it. I guess that's ok, since I want to code and document and not spend too much time with the build system :-)
 
-So let's get started. If you don't have already Gradle installed on your machine, you should give [SDKMan](https://sdkman.io) a try. It manages the installation, upgrade and switch between versions of not only Gradle but all the tools a java developer needs - all but the JDK :-(. If you are on a Windows machine like me, you have to use [posh-GVM](https://github.com/flofreud/posh-gvm) instead of SDKMan. It's harder to install but will yield the same results - as long as you use the powershell :-)
+So let's get started. If you don't have already Gradle installed on your machine, you should give [SDKMan](http://sdkman.io) a try. It manages the installation, upgrade and switch between versions of not only Gradle but all the tools a java developer needs - all but the JDK :-(. If you are on a Windows machine like me, you have to use [posh-GVM](https://github.com/flofreud/posh-gvm) instead of SDKMan. It's harder to install but will yield the same results - as long as you use the powershell :-)
 
 Let's first create a fresh working dir
 
