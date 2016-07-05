@@ -21,13 +21,11 @@
   
 - slug: asciidoc
   name: asciidoc
+
+- slug: documentation
+  name: Documentation
   
 - slug: gradle
   name: Gradle
   
-- slug: documentation
-  name: Documentation
-  
-- slug: documentation
-  name: Documentation
-  
+
