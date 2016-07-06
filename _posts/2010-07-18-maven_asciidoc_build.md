@@ -10,7 +10,7 @@ Let's add a `pom.xml` to turn the project in a Maven project!
 
 ## Maven Integration
 
-Again - if you don't have already Maven installed, use [SDKMan](http://sdkman.io) or [PoshGVM]() to download and install it.
+Again - if you don't have already Maven installed, use [SDKMan](http://sdkman.io) or [posh-GVM](https://github.com/flofreud/posh-gvm) to download and install it.
 
 I assume that you already have a command line open and your working directory is the project we created last time.
 
@@ -74,7 +74,7 @@ mvnw
 
 and you'll get the same output as with the Gradle build:
 
-<div> <img src="renderedHtml.png" style="max-width: 100%" /> </div>
+<div> <img src="../images/renderedHtml.png" style="max-width: 100%" /> </div>
 
 ## Conclusion
 
