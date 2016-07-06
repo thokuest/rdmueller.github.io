@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Simpel AsciiDoc Build with Maven
-tags: [asciidoc, documentation, maven]
+tags: [asciidoc, doc, maven]
 ---
 
 Last time we created a Gradle project to render an AsciiDoc file. But what if you can't use Gradle but have to use Maven? 
