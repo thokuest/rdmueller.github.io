@@ -30,33 +30,33 @@ Now, maven needs a `pom.xml` file and unfortunately, it is not as simple as the 
   <version>0.1</version>
   	
   <build>
-	  <!-- (1) makes it easier to run build -->	
-	  <defaultGoal>generate-resources</defaultGoal>
-		<plugins>
-		  <plugin>
-		    <groupId>org.asciidoctor</groupId>
-		    <artifactId>asciidoctor-maven-plugin</artifactId>
-		    <version>1.5.3</version> 
-		    <configuration>
-		    	<!-- (2) defaults to src/main/asciidoc -->
-		    	<sourceDirectory>src/docs/asciidoc</sourceDirectory>
-		    	<!-- (3) defaults to docbook -->
-		    	<backend>html5</backend>
-		    	<!-- (4) defaults to target/generated-docs -->
-		    	<outputDirectory>build/docs/html5</outputDirectory>
-		    </configuration>
-				<executions>
-	    		<execution>
-	      	<id>output-html</id> 
-	      	<phase>generate-resources</phase> 
-	      	<goals>
-	        	<goal>process-asciidoc</goal> 
-	      	</goals>
-	    		</execution>
-	  		</executions>
-	  	</plugin>
-		</plugins>
-	</build>
+    <!-- (1) makes it easier to run build -->	
+    <defaultGoal>generate-resources</defaultGoal>
+    <plugins>
+      <plugin>
+        <groupId>org.asciidoctor</groupId>
+        <artifactId>asciidoctor-maven-plugin</artifactId>
+        <version>1.5.3</version>
+        <configuration>
+          <!-- (2) defaults to src/main/asciidoc -->
+          <sourceDirectory>src/docs/asciidoc</sourceDirectory>
+          <!-- (3) defaults to docbook -->
+          <backend>html5</backend>
+          <!-- (4) defaults to target/generated-docs -->
+          <outputDirectory>build/docs/html5</outputDirectory>
+        </configuration>
+        <executions>
+          <execution>
+	    <id>output-html</id> 
+	    <phase>generate-resources</phase> 
+	    <goals>
+	      <goal>process-asciidoc</goal> 
+	    </goals>
+	  </execution>
+	</executions>
+      </plugin>
+    </plugins>
+  </build>
 </project>
 ``` 
 
