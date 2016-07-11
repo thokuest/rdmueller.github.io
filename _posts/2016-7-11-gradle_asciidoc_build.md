@@ -44,7 +44,7 @@ plugins {
 
 That's it. It's basically all we need to convert our first asciidoc file. (If you wonder about the notation - it's the new way to reference plugins which works from Gradle v2.1 on.)
 
-To get a slightly more challinging document than a simple "Hello World", let's copy the one provided by [@mojavelinux](https://www.twitter.com/mojavelinux) on  [gist](https://gist.github.com/mojavelinux/4402636). Just put the three files `include.asciidoc.txt` and `test.asciidoc.txt`  in the project`s subfolder `/src/docs/asciidoc` and `tiger.png` into `/src/docs/asciidoc/images` . In order to make it work, remove the `.txt` extension of the two files and also in the `test.asciidoc` file on line 141.
+To get a slightly more challinging document than a simple "Hello World", let's copy the one provided by [@mojavelinux](https://www.twitter.com/mojavelinux) on  [gist](https://gist.github.com/mojavelinux/4402636). Just put the three files `include.asciidoc.txt` and `test.asciidoc.txt`  in the project's subfolder `/src/docs/asciidoc` and `tiger.png` into `/src/docs/asciidoc/images` . In order to make it work, remove the `.txt` extension of the two files and also in the `test.asciidoc` file on line 141.
 
 The `test.asciidoc` file is configured to use an external style sheet which is missing in our setup. So to use the internal stylesheet, change the beginning of the file to the following:
 
