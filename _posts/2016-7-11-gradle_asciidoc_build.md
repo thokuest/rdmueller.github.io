@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simpel AsciiDoc Build with Gradle
+title: Simple AsciiDoc Build with Gradle
 tags: [asciidoc, doc, gradle]
 ---
 
