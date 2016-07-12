@@ -20,7 +20,7 @@ Animal <|-- Dog
 
 will be rendered as Class-Diagram like this
 
-<div> <img src="../images/rederedDiagram.png" style="max-width: 100%" /> </div> 
+<div> <img src="../images/renderedDiagram.png" style="max-width: 100%" /> </div> 
 
 ## Cleanup first
 
