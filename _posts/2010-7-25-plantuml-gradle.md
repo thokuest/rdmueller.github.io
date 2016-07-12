@@ -10,7 +10,7 @@ configure your Gradle build in such a way that a block like this
 ``` 
 [plantUML,"test",png]
 ----
-class Animal 
+class Animal  
 class Cat 
 class Dog 
 Animal <|-- Cat 
