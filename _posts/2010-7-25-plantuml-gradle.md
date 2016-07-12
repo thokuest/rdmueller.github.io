@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Next Level: PlantUML with Gradle
+title: "Next Level: PlantUML with Gradle"
 tags: [asciidoc, doc, gradle]
 ---
 
