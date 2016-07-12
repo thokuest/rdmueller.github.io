@@ -20,7 +20,7 @@ Animal <|-- Dog
 
 will be rendered as Class-Diagram like this
 
-<div> <img src="../images/rederedDiagram.png" style="max-width: 100%" /> </div> 
+<div> <img src="images/rederedDiagram.png" style="max-width: 100%" /> </div> 
 
 ## Cleanup first
 
@@ -41,7 +41,7 @@ Since most AsciiDoctor plugins exist as Ruby Gems, we first need to Last time we
 
 As you can see, it is easy to combine AsciiDoc with planUML to define UML diagrams _within_ your documentation.
 
-<div> <img src="../images/renderedPlantUml.png" style="max-width: 100%" /> </div>
+<div> <img src="images/renderedPlantUml.png" style="max-width: 100%" /> </div>
 
 But one question still remains:
 
