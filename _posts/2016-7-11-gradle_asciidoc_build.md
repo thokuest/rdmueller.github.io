@@ -84,4 +84,4 @@ PS: the docToolchain project greated above is available on github: [https://gith
 Previous post: [Why you should use AsciiDoc to document your Software Solution](https://rdmueller.github.io/why_asciidoc/)
 <!--Next post: [Simpel AsciiDoc Build with Maven](https://rdmueller.github.io/maven_asciidoc_build/)-->
 
-
+Next post: [Simple AsciiDoc Build with Maven](https://rdmueller.github.io/maven_asciidoc_build/)
