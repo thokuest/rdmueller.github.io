@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simpel AsciiDoc Build with Maven
+title: Simple AsciiDoc Build with Maven
 tags: [asciidoc, doc, maven] 
 future: true
 ---
