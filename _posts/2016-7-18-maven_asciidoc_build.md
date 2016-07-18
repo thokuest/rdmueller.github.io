@@ -5,13 +5,13 @@ tags: [asciidoc, doc, maven]
 future: true
 ---
 
-Last time we created a Gradle project to render an AsciiDoc file. But what if you can't use Gradle but have to use Maven? 
+[Last time](https://rdmueller.github.io/gradle_asciidoc_build/) we created a Gradle project to render an AsciiDoc file. But what if you can't use Gradle but have to use Maven? 
 
-Let's add a `pom.xml` to turn the project in a Maven project!
+Let's add a `pom.xml` to turn the project into a Maven project!
 
 ## Maven Integration
 
-Again - if you don't have already Maven installed, use [SDKMan](http://sdkman.io) or [posh-GVM](https://github.com/flofreud/posh-gvm) to download and install it.
+Again - if you don't have Maven already installed, use [SDKMan](http://sdkman.io) or [posh-GVM](https://github.com/flofreud/posh-gvm) to download and install it.
 
 I assume that you already have a command line open and your working directory is the project we created last time.
 
