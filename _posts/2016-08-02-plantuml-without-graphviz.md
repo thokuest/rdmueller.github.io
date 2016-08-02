@@ -24,7 +24,7 @@ at top of your diagram and it will be rendered through jdot and not Graphviz dot
     Animal <|-- Dog
     ----
 
-<div> <img src="../images/test2.png" style="max-width: 100%" /> </div>
+<div> <img src="../images/test3.png" style="max-width: 100%" /> </div>
 
 But there is a catch: if you are like me, you probably have several tools on your machine which use asciidoctorj and thus maybe asciidoctor-diagram. So, if the `!pragma` statement does not work in your environment, it might be that there is already an older library on the classpath which gets picked up.
 
