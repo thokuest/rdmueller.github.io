@@ -26,17 +26,15 @@ at top of your diagram and it will be rendered through jdot and not Graphviz dot
 
 <div> <img src="../images/test3.png" style="max-width: 100%" /> </div>
 
-But there is a catch: if you are like me, you probably have several tools on your machine which use asciidoctorj and thus maybe asciidoctor-diagram. So, if the `!pragma` statement does not work in your environment, it might be that there is already an older library on the classpath which gets picked up.
-
-Use the `version` statement of plantUML to figure this out:
+If you experience problems, you can always use the `version` statement of plantUML to check which version from which folder is used:
 
     [plantuml,version,png]
     ----
     version
     ----
     
-This will show you the path to the libraries used:
-
 <div> <img src="../images/version2.png" style="max-width: 100%" /> </div> 
 
-In my case, the [asciidoctor-intellij-plugin](https://github.com/asciidoctor/asciidoctor-intellij-plugin) was the first library found on the path. Since this is a great plugin, I used this situation to ask for an update of the plugin. Thanx to [Alexander Schwartz](https://twitter.com/ahus1de) there is already a [preview version](https://github.com/asciidoctor/asciidoctor-intellij-plugin/releases/tag/0.13-preview1) available which - in addition - renders the text and preview side-by-side!
+In my case, I used the [asciidoctor-intellij-plugin](https://github.com/asciidoctor/asciidoctor-intellij-plugin) plugin to edit my AsciiDoc files. THis plugin rendered the images to the `images` folder within the `src` folder. The result was that the Gradle build copied the images created by the intellij plugins over the generated one.
+
+BTW: Thanx to [Alexander Schwartz](https://twitter.com/ahus1de) there is a [preview version](https://github.com/asciidoctor/asciidoctor-intellij-plugin/releases/tag/0.13-preview1) of the asciidoctor-intellij-plugin available which is able to work without Graphviz. And in addition, it renders the text and preview side-by-side!
