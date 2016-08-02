@@ -1,3 +1,4 @@
+---
 layout: post
 title: "How to use PlantUML without Graphviz"
 tags: [doc, plantuml]
