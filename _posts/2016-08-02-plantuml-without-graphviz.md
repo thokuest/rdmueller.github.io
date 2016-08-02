@@ -35,6 +35,6 @@ If you experience problems, you can always use the `version` statement of plantU
     
 <div> <img src="../images/version2.png" style="max-width: 100%" /> </div> 
 
-In my case, I used the [asciidoctor-intellij-plugin](https://github.com/asciidoctor/asciidoctor-intellij-plugin) plugin to edit my AsciiDoc files. THis plugin rendered the images to the `images` folder within the `src` folder. The result was that the Gradle build copied the images created by the intellij plugins over the generated one.
+In my case, I used the [asciidoctor-intellij-plugin](https://github.com/asciidoctor/asciidoctor-intellij-plugin) plugin to edit my AsciiDoc files. THis plugin rendered the images to the `images` folder within the `src` folder. The result was that the Gradle build copied the images created by the IntelliJ plugins over the generated one.
 
 BTW: Thanx to [Alexander Schwartz](https://twitter.com/ahus1de) there is a [preview version](https://github.com/asciidoctor/asciidoctor-intellij-plugin/releases/tag/0.13-preview1) of the asciidoctor-intellij-plugin available which is able to work without Graphviz. And in addition, it renders the text and preview side-by-side!
