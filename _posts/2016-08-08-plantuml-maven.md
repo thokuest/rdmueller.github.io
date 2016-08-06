@@ -21,3 +21,26 @@ and also added a properties section where I define the dependency versions used 
 
 That makes it a bit easier to get an overview and to update versions later.
 
+Now let's add the right dependency and configure the asciidoctor maven plugin:
+
+    <dependencies>
+        <dependency>
+            <groupId>org.asciidoctor</groupId>
+            <artifactId>asciidoctorj-diagram</artifactId>
+            <version>${asciidoctorj.diagram.version}</version>
+        </dependency>
+    </dependencies>
+    <configuration>
+        [...]
+        <requires>
+            <require>asciidoctor-diagram</require>
+        </requires>
+    </configuration>
+
+et voilá, we have the same result as with the gradle build :-)
+
+<div> <img src="../images/renderedPlantUml.png" style="max-width: 100%" /> </div>
+
+The versions are already set is such a way that you can switch between the Graphviz dot version and the build in alpha of jdot.
+
+The updated docTool project can be found here: PS: as always, the current version of docToolchain is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/0c51e469da884af0632721996a2d2eb010f73cca)
