@@ -26,6 +26,8 @@ at top of your diagram and it will be rendered through jdot and not Graphviz dot
 
 <div> <img src="../images/test3.png" style="max-width: 100%" /> </div>
 
+In order to make this work with the docToolchain project, the used version of asciidoctor-diagram had to be updated to 1.5.1 - this version includes the newest plantUML.
+
 If you experience problems, you can always use the `version` statement of plantUML to check which version from which folder is used:
 
     [plantuml,version,png]
@@ -38,3 +40,6 @@ If you experience problems, you can always use the `version` statement of plantU
 In my case, I used the [asciidoctor-intellij-plugin](https://github.com/asciidoctor/asciidoctor-intellij-plugin) plugin to edit my AsciiDoc files. THis plugin rendered the images to the `images` folder within the `src` folder. The result was that the Gradle build copied the images created by the IntelliJ plugins over the generated one.
 
 BTW: Thanx to [Alexander Schwartz](https://twitter.com/ahus1de) there is a [preview version](https://github.com/asciidoctor/asciidoctor-intellij-plugin/releases/tag/0.13-preview1) of the asciidoctor-intellij-plugin available which is able to work without Graphviz. And in addition, it renders the text and preview side-by-side!
+
+PS: as always, the current version of docToolchain is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/d090eb8b1e38cf044599e884236e0aff9effca9c)
+
