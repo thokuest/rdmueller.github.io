@@ -43,4 +43,4 @@ et voilá, we have the same result as with the gradle build :-)
 
 The versions are already set is such a way that you can switch between the Graphviz dot version and the build in alpha of jdot.
 
-The updated docTool project can be found here: PS: as always, the current version of docToolchain is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/0c51e469da884af0632721996a2d2eb010f73cca)
+The updated docTool project can be found here:  [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/0c51e469da884af0632721996a2d2eb010f73cca)
