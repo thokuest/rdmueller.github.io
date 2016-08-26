@@ -4,6 +4,8 @@ title: Why I don't like Word to write documentation
 tags: [asciidoc, documentation]
 ---
 
+{% include navigation.md %}
+
 Don't get me wrong &ndash; MS Word is a great product for many use cases, but most of them are IMHO outdated (like writing a letter) and writing modern documentation is not a use case where MS Word shines.
 
 Today we live in the information age, but Word is page oriented &ndash; Word lets you write documents with pages, page numbers, page header and footer etc. <br />
