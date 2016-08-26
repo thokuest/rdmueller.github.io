@@ -26,6 +26,8 @@ layout: default
 {% endif %}
 
 <article class="post">
+
+<div style="font-size:60%;"><p id="post-meta">{{ tags_content }}</p></div>
 <div class="PageNavigation">
   {% if page.previous.url %}
     <a class="prev" href="{{page.previous.url}}">&laquo; {{page.previous.title}}</a>
@@ -34,8 +36,6 @@ layout: default
     <a class="next" href="{{page.next.url}}">{{page.next.title}} &raquo;</a>
   {% endif %}
 </div>
-
-<div style="font-size:60%;"><p id="post-meta">{{ tags_content }}</p></div>
   <h1>{{ page.title }}</h1>
 
   <div class="entry">
