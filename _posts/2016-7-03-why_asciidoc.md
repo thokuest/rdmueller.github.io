@@ -69,7 +69,3 @@ include::Chapter_03.adoc[]
 These are only a few reasons why I favour Asciidoc over MS Word. The main reason is that it looks like code, feels like code, can be controlled like code and builds like code. And that's what counts :-)
 
 If you need more arguments, check out the great blogposts by [@mrhaki](https://twitter.com/mrhaki): [Awesome:Asciidoctor](http://mrhaki.blogspot.de/search/label/Awesome%3AAsciidoctor)
-
-Previous post: [Why I don't like Word to write documentation](https://rdmueller.github.io/why_no_word/)
-
-Next post: [Simple AsciiDoc Build with Gradle](https://rdmueller.github.io/gradle_asciidoc_build/)
