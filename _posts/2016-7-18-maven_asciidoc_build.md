@@ -82,7 +82,3 @@ and you'll get the same output as with the Gradle build:
 It doesn't matter if you use Maven or Gradle as build tool. You can unleash the power of AsciiDoc with both build system. You can even use it without a build system by directly using AsciiDoctor as library from Groovy or Java.
 
 PS: the docToolchain project greated above is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/e68bf3e039f52ba346626a0da8e2082e29390021)
-
-Previous post: [Simpel AsciiDoc Build with Gradle](https://rdmueller.github.io/gradle_asciidoc_build/)
-
-
