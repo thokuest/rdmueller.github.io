@@ -72,3 +72,4 @@ If you need more arguments, check out the great blogposts by [@mrhaki](https://t
 
 Previous post: [Why I don't like Word to write documentation](https://rdmueller.github.io/why_no_word/)
 
+Next post: [Simple AsciiDoc Build with Gradle](https://rdmueller.github.io/gradle_asciidoc_build/)
