@@ -6,6 +6,8 @@ tags: [spock, grails]
 
 [Spock-Reports](https://github.com/renatoathaydes/spock-reports) is a great way to create better reports for [Spock](https://github.com/spockframework/spock).
 
+<!--more-->
+
 Since Grails 3.0 is based on Gradle, integrating the Spock-Reports is easy. Just open your `build.gradle` file and add
 
 ```groovy
