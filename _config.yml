@@ -2,6 +2,8 @@
 # This file contains configuration flags to customize your site
 # 
 
+excerpt_separator: <!--more-->
+
 future: true
 # Name of your site (displayed in the header)
 name: R. D. Müller
