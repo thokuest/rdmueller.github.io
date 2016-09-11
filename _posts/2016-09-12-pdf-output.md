@@ -42,4 +42,4 @@ The PDF output not only allows us to render the document as a single file, it br
 
 PS: all examples are based on the [asciidoctor-gradle](https://github.com/asciidoctor/asciidoctor-gradle-examples) and [asciidoctor-maven]() examples on github. They are a great ressource for inspiration :-)
 
-All changes are (as always)
+All changes are (as always) available on Github: [docToolchain](https://github.com/rdmueller/docToolchain/tree/3cef06737014a7e8b3c28d09ed64efff8e7e033e)
