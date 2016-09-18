@@ -47,12 +47,10 @@ layout: default
     First appeared {{ page.date | date: "%B %e, %Y" }} on rdmueller.github.io
   </div>
   <aside class="social-share">
-    <h2>Share this:</h2>
-    <ul>
-        <li class="twitter"><i class="fa fa-twitter"></i><a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&text=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}%0D{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter">Twitter</a></li>
-        <li class="facebook"><i class="fa fa-facebook"></i><a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&t=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}" title="Share on Facebook">Facebook</a></li>
-        <li class="googleplus"><i class="fa fa-google-plus"></i><a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus">Google+</a></li>
-    </ul>
+    <b>Share this on</b>
+    <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&text=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}%0D{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
+    <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&t=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
+        <a href="https://plus.google.com/share?url={{ site.url }}{{ page.url }}" title="Share on Google Plus"><i class="fa fa-google-plus"></i></a>
     </aside>
 
 <div class="PageNavigation">
