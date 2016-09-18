@@ -12,4 +12,72 @@ First, the changes have to be parsed and re-formatted to asciidoc. There are git
 
     def res = "git log ./src/docs/arc42".execute().text
     
-This executes the command and returns the whole change log as string.    
+This executes the command and returns the whole change log as string:
+
+    commit f811ed51fd21c089bc6ee7853dcf5284eaa2ae88
+    Author: Ralf D. Mueller <ralf.d.mueller@gmail.com>
+    Date:   Sun Aug 21 23:14:14 2016 +0200
+    
+        added arc42 template as content
+
+With the language features provided by Groovy, it is easy to parse this and render it as asciidoc:
+
+{% highlight groovy %}
+task exportChangeLog(
+        dependsOn: [streamingExecute],
+        description: 'exports the change log from a git subpath'
+) << {
+    def res = "git log ./src/docs/arc42".execute().text
+    def changes = []
+    def change = null
+    res.eachLine { line ->
+        switch (line) {
+            case ~/^commit.*/:
+                if (change!=null) {
+                    changes << change
+                }
+                change = [commit:line-'commit ',log:'']
+                break;
+            case ~/^Author:.*/:
+                change['author'] = line-'Author: '
+                break;
+            case ~/^Date:.*/:
+                change['date'] = line-'Date: '
+                break;
+            default:
+                change['log'] += (line ? line.trim()+ "\n" : '')
+        }
+    }
+    changes << change
+    def changelog = new File('./build/docs/changelog.adoc')
+    changelog.write("")
+
+    changes.each { c ->
+        changelog.append """| ${new Date(Date.parse(c.date)).format("dd.MM.yyyy")}
+| ${c.author.replaceAll('<[^>]*>','')}
+| ${c.log}
+"""
+    }
+}
+{% endhighlight %}
+
+The resulting file can easily embedded in asciidoc:
+
+    .Changes
+    [options="header",cols="1,2,6"]
+    |====
+    | Date
+    | Author
+    | Comment
+    
+    include::../../build/docs/changelog.adoc[]
+    
+    |====
+
+The table name and heading are part of the asciidoc template and not the `changelog.adoc` file in order to make it easy to translate. And indeed, the docToolchain project contains the [arc42](https://arc42.github.io) template in two languages :-)
+
+So, if you now run `gradle exportChangeLog` and then just `gradle` the docToolchain build will render a nice changelog for you:
+
+<div> <img src="../images/changelog.png" style="max-width: 100%" /> </div>
+
+As always, the updated docToolchain build is available on [github](https://github.com/rdmueller/docToolchain/tree/b2b011caee933b8d7c764bb62c6bb00b5431c583)
