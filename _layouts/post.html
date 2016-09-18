@@ -46,7 +46,7 @@ layout: default
   <div class="date">
     First appeared {{ page.date | date: "%B %e, %Y" }} on rdmueller.github.io
   </div>
-  <aside class="social-share">
+  <aside class="social-share" style="padding-top:10px;">
     <b>Share this on</b>
     <a href="https://twitter.com/share?url={{ site.url }}{{ page.url }}&text=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}%0D{% if site.twitter %}&via={{ site.twitter }}{% endif %}" title="Share on Twitter"><i class="fa fa-twitter"></i></a>
     <a href="https://www.facebook.com/sharer/sharer.php?u={{ site.url }}{{ page.url }}&t=Blog+post+by+@RalfDMueller:%0D{{ page.title | url_escape }}" title="Share on Facebook"><i class="fa fa-facebook"></i></a>
