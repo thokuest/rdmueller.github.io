@@ -30,3 +30,6 @@
   
 - slug: maven
   name: Maven
+  
+- slug: jira
+  name: Jira
