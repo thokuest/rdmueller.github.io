@@ -31,5 +31,5 @@
 - slug: maven
   name: Maven
   
-- slug: jira
-  name: Jira
+- slug: atlassian
+  name: atlassian
