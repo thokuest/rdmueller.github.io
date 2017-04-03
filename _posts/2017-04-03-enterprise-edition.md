@@ -63,7 +63,8 @@ With the above configuration, all dependencies are resolved through the internal
 
 But what about Gradle itself?
 Best practice is to use the [Gradle wrapper](https://docs.gradle.org/current/userguide/gradle_wrapper.html) but the wrapper is configured to fetch Gradle from external sources.
-But there is also a config for that: `<your project>/gradle/wrapper/gradle-wrapper.properties`.
+
+There is also a config for that: `<your project>/gradle/wrapper/gradle-wrapper.properties`.
 Just replace the line 
 
 `distributionUrl=https\://services.gradle.org/distributions/gradle-2.12-bin.zip`
