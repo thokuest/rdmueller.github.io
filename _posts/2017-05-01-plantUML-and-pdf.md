@@ -32,7 +32,7 @@ tasks.withType(AsciidoctorTask) { docTask ->
             'javaVersion'         : "$javaVersion",
             'currentDate'         : "$currentDate",
             'allow-uri-read'      : true,
-            'plantUMLDir'         : file('src/docs/images/plantUML/').path
+            'plantUMLDir'         : file('build/docs/images/plantUML/').path
     // ...
 
     // configure source and output files and folders
@@ -78,5 +78,6 @@ and this seems to work :-)
 - images are rendered ok in HTML and PDF
 - plantUML is rendered ok in HTML and PDF
 - plantUML files are created in `build`-folder
+
 
 
