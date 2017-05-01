@@ -61,4 +61,22 @@ task generatePDF (
 }
 {% endhighlight %}
 
-Second (already included in the source above), I added an attribute `plantUMLDir` which specifies the absolute path to a folder where I want to have my plantUML images generated to.
+Second (already included in the source above), I added an attribute `plantUMLDir` which specifies the _absolute_ path to a folder where I want to have my plantUML images generated to.
+
+So, my trick now is to use this _absolute_ path in my plantUML diagram definitions
+
+```
+[plantuml,"{plantUMLDir}/sequence-PK-buys-seating",png]
+----
+!pragma graphviz_dot jdot
+...
+----
+```
+
+and this seems to work :-)
+
+- images are rendered ok in HTML and PDF
+- plantUML is rendered ok in HTML and PDF
+- plantUML files are created in `build`-folder
+
+
