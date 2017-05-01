@@ -22,7 +22,6 @@ tasks.withType(AsciidoctorTask) { docTask ->
     outputDir = file(targetDir)
     sourceDir = file(srcDir)
 
-    attributes \
         'pdf-stylesdir': 'pdfTheme',
             'pdf-style': 'custom',
             'source-highlighter': 'coderay',
@@ -31,8 +30,7 @@ tasks.withType(AsciidoctorTask) { docTask ->
             'icons': 'font',
             'javaVersion'         : "$javaVersion",
             'currentDate'         : "$currentDate",
-            'allow-uri-read'      : true,
-            'plantUMLDir'         : file('build/docs/images/plantUML/').path
+            'allow-uri-read'      : true
     // ...
 
     // configure source and output files and folders
@@ -51,12 +49,16 @@ tasks.withType(AsciidoctorTask) { docTask ->
 task generateHTML (
         type: AsciidoctorTask,
         description: 'use html5 as asciidoc backend') {
+    attributes \
+            'plantUMLDir'         : ''
     backends = ['html5']
 }
 
 task generatePDF (
         type: AsciidoctorTask,
         description: 'use html5 as asciidoc backend') {
+    attributes \
+            'plantUMLDir'         : file('build/docs/images/plantUML/').path
     backends = ['pdf']
 }
 {% endhighlight %}
@@ -66,7 +68,7 @@ Second (already included in the source above), I added an attribute `plantUMLDir
 So, my trick now is to use this _absolute_ path in my plantUML diagram definitions
 
 ```
-[plantuml,"{plantUMLDir}/sequence-PK-buys-seating",png]
+[plantuml,"{plantUMLDir}image_name",png]
 ----
 !pragma graphviz_dot jdot
 ...
@@ -75,9 +77,9 @@ So, my trick now is to use this _absolute_ path in my plantUML diagram definitio
 
 and this seems to work :-)
 
+- for HTML, plantUML images are referenced relative to the document
+- for PDF, plantUML images are are referenced absolute, but since they are stored within the pdf, this does not matter
 - images are rendered ok in HTML and PDF
 - plantUML is rendered ok in HTML and PDF
 - plantUML files are created in `build`-folder
-
-
 
