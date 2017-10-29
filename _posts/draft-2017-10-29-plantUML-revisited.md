@@ -38,8 +38,8 @@ I guess others have the same problem with my diagrams.
 So always try to create a legend which explains the visual cues.
 
 ### when you have an existing diagram, you can easily describe your plantUML code to look like the original diagram
-By only using the `+->+` (right) and `+-->+` (down) arrows, I already achieved most of the layout.
-Sometimes I had to reverse the arrow direction `+<--+` to keep the meaning "down" but draw the arrow the other direction (I normally switch the two elements and do not reverse the arrow).
+By only using the `->` (right) and `-->` (down) arrows, I already achieved most of the layout.
+Sometimes I had to reverse the arrow direction `<--` to keep the meaning "down" but draw the arrow the other direction (I normally switch the two elements and do not reverse the arrow).
 
 ### but the layout can be a beast... 
 
