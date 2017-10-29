@@ -9,13 +9,22 @@ Two days ago, a plantUML tweet caught my attention:
 <blockquote class="twitter-tweet" data-lang="de"><p lang="en" dir="ltr">I&#39;ll pay US$15 for someone who can do this <a href="https://twitter.com/PlantUML?ref_src=twsrc%5Etfw">@PlantUML</a> or <a href="https://twitter.com/Graphviz?ref_src=twsrc%5Etfw">@Graphviz</a> diagram for <a href="https://t.co/qiHlqMk9Kv">https://t.co/qiHlqMk9Kv</a>:<a href="https://t.co/ImtOojup3d">https://t.co/ImtOojup3d</a><a href="https://twitter.com/hashtag/opensource?src=hash&amp;ref_src=twsrc%5Etfw">#opensource</a></p>&mdash; William Narmontas (@ScalaWilliam) <a href="https://twitter.com/ScalaWilliam/status/924250414698053632?ref_src=twsrc%5Etfw">28. Oktober 2017</a></blockquote>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-Someone want to pay for a plantUML diagram. 
+Someone is willing to pay for a plantUML diagram. 
 That's something I haven't seen before, so I checked what it was all about: 
-the following diagram needed to be implemented as plantUML.
+the following diagram needed to be implemented as plantUML...
+
+<div style="text-align: center;">
+<img src="../images/ActionFPS-architecture.png" style="max-width:100%;" />
+</div>
+
 The money caught my attention, but what made me to do the work was the following.
 When I advise about plantUML, I always tell people that - because you don't have control over the layout - is great for sequence diagrams but hard to use for complex diagrams of other types.
 
 Now, here it was - a complex architecture diagram and the chance to give it a try for the value of three beers! 🍺🍺🍺
+
+<div style="text-align: center;">
+<img src="../images/ActionFPS.png" style="max-width:100%;" />
+</div>
 
 Here is what I've learned from this:
 
