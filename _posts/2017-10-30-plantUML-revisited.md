@@ -23,7 +23,8 @@ When I advise about plantUML, I always tell people that - because you don't have
 Now, here it was - a complex architecture diagram and the chance to give it a try for the value of three beers! 🍺🍺🍺
 
 <div style="text-align: center;">
-<img src="../images/ActionFPS.png" style="max-width:100%;" />
+<img src="../images/ActionFPS.png" style="max-width:100%;" /><br />
+<img src="../images/ActionFPS2.png" style="max-width:100%;" />
 </div>
 
 Here is what I've learned from this:
@@ -42,4 +43,12 @@ By only using the `->` (right) and `-->` (down) arrows, I already achieved most 
 Sometimes I had to reverse the arrow direction `<--` to keep the meaning "down" but draw the arrow the other direction (I normally switch the two elements and do not reverse the arrow).
 
 ### but the layout can be a beast... 
+Have you noticed that the plantUML consists of two images? That is because even with hidden lines, I didn't manage to put those diagrams underneath each other. PlantUML always rendered them side by side.
 
+## Conclusion
+While I managed to redraw the given diagram with plantUML, I wouldn't want to design such a diagram from scratch with plantUML, since it doesn't give you enough degrees of freedom.
+
+While this is true for component-, class- and deployment-diagrams of a certain complexity, I really enjoy using plantUML for sequence diagrams. For sequence diagrams, it is a blessing that plantUML takes care of the layout, no matter how I change the diagram!
+
+
+PS: here is a copy of the plantUML source: https://github.com/rdmueller/rdmueller.github.io/blob/master/images/ActionFPS.puml 
