@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "PlantUML revisited"
+title: "plantUML revisited"
 tags: [plantUML]
 ---
 
