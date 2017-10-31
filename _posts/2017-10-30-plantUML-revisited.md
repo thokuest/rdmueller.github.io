@@ -36,7 +36,7 @@ But from the names of the elements, I deducted that I could use the database sym
 ### I was missing a visual legend
 while the meaning of the csv and repository elements is clear to me, I have no clue about the color codes or the rounded shapes of the diagram.
 I guess others have the same problem with my diagrams.
-So always try to create a legend which explains the visual cues.
+So always try to create a legend which explains the visual hints.
 
 ### when you have an existing diagram, you can easily describe your plantUML code to look like the original diagram
 By only using the `->` (right) and `-->` (down) arrows, I already achieved most of the layout.
