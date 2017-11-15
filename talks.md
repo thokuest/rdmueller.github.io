@@ -16,7 +16,7 @@ permalink: /talks/
 * German, Talk
 * 7th Dec. 2017, Darmstadt
 * Java User Group Darmstadt, "Zweiter kunterbunter Abend"
-* together with [Falk Sippach](https://twitter.com/sipsack)
+* together with [Falk Sippach](https://twitter.com/sippsack)
 * [link](https://www.jug-da.de/2017/12/Zweiter-Kunterbunter-Abend/)
 
 ## Past
