@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Let's start to _model_ our architecture!"
+title: "Let's start to _model_ our software architecture!"
 tags: [doc]
 ---
 
