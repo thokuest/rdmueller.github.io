@@ -146,5 +146,5 @@ But one question still remains:
 
 The new book [Communicating Software Architecture](https://leanpub.com/arc42inpractice)(English) / [arc42 in Aktion](http://amzn.to/29UUm0p)(German) by [Gernot Starke](https://twitter.com/gernotstarke) and Peter Hruschka provides a good answer. Since you nearly can't control the layout of plantUML, it only makes sense when you don't have to manually control the layout. This is the case for most simple diagrams and dynamic diagrams like a sequence diagram. PlantUML does such a good job with layouting sequence diagrams, that I even would prefere to draw them with PlantUML over any other tool.
 
-PS: the docToolchain project greated above is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/c99227237a5871345e6f27e6f56dac1b63e3e4ce)
+PS: the docToolchain project created above is available on github: [https://github.com/rdmueller/docToolchain](https://github.com/rdmueller/docToolchain/tree/c99227237a5871345e6f27e6f56dac1b63e3e4ce)
 
