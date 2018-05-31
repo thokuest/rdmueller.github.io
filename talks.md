@@ -16,20 +16,20 @@ permalink: /talks/
 
 ### Docs-as code: arc42, AsciiDoc, Gradle & Co. combined
 * English, Talk
-* 31. May 2018
+* 31 May 2018
 * Gr8Conf 2018
 * [link](https://gr8conf.eu/talks/594) [slides](https://speakerdeck.com/rdmueller/docs-as-code-arc42-asciidoc-gradle-and-co-combined-1)
 
 ### Docs-as-Code - Architekturdokumentation leicht gemacht
 * German, Talk
-* 26. April 2018
+* 26 April 2018
 * JAX 2018
 * together with [Falk Sippach](https://twitter.com/sippsack)
 * [link](https://jax.de/software-architecture/the-hitchhikers-guide-to-docs-as-code/) [slides](https://speakerdeck.com/rdmueller/docs-as-code-architekturdokumentation-leicht-gemacht)
 
 ### Docs-as code: arc42, AsciiDoc, Gradle & Co. combined 
 * English, Talk
-* 17. May 2018, Madrid, Spain
+* 17 May 2018, Madrid, Spain
 * GreachConf 2018
 * [link](http://2018.greachconf.com/sessions/docs-as-code-arc42-asciidoc-gradle-co-combined/)
 
