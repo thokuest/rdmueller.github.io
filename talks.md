@@ -12,6 +12,11 @@ permalink: /talks/
 * together with [Dr. Gernot Starke](https://twitter.com/gernotstarke)
 * [link](https://jax.de/software-architecture/docs-as-code-anatomie-einer-realen-systemdokumentation/)
 
+### Docs-as-Code: arc42, AsciiDoc, Gradle & Co im Einsatz
+* German, Talk
+* Java User Group Frankfurt
+* 29 August 2018
+
 ## Past
 
 ### Docs-as code: arc42, AsciiDoc, Gradle & Co. combined
